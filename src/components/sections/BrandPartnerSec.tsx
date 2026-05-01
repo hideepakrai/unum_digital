@@ -121,10 +121,10 @@ const BrandPartnerSec = () => {
   ];
 
   return (
-    <section className="bg-[#101a21] px-4 py-12 md:px-8 md:py-20 lg:px-10">
+    <section id="our-work" className="bg-[#101a21] px-4 py-12 md:px-8 md:py-28 lg:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12 text-center md:mb-16 max-w-2xl mx-auto">
-          <h2 className="text-[28px] font-semibold tracking-[-0.03em] text-white md:text-[40px]">
+          <h2 className="text-[28px] font-semibold tracking-[-0.03em] text-white md:text-[40px] md:pt-4">
             Some of the stories that we <br className="hidden md:block" /> had privilege to co-create!
           </h2>
           <p className="mx-auto mt-4 max-w-[760px] text-[14px] leading-[1.7] text-white/75 md:text-[18px]">

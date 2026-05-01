@@ -274,26 +274,17 @@ const CDCPage = () => {
                   className="mt-4 text-[20px] font-normal leading-[1.3] tracking-[-0.015em] text-[#0F0F3D] sm:mt-5 sm:text-[24px] md:text-[25px] lg:text-[26px]"
                   style={{ fontFamily: "Georgia, Times New Roman, serif" }}
                 >
-                  With appreciation for the journey, providing creative direction
-                  services for Coaching.com gave me the privilege of working closely
-                  with some of the world's leading thought leaders, academic professors,
-                  and business professionals.
+                  With Appreciation for the Journey, providing creative direction services for Coaching.com gave me the privilege of working closely with some of the world’s leading thought leaders, academic professors, and business professionals.
                 </p>
               </div>
 
               <div className="max-w-[520px]">
                 <div className="mt-2 space-y-[14px] sm:mt-5">
                   <p className="text-[14px] leading-[1.7] text-[#0F0F3D] sm:text-[15px] md:text-[16px]">
-                    Through interviews and direct collaboration, I was able to learn
-                    directly from their experience and perspectives, but just as
-                    importantly, I had the opportunity to work alongside exceptional
-                    people at every level. Many of those professional relationships
-                    grew into lasting friendships, and each collaboration left a
-                    meaningful mark on both my work and my life.
+                    Through interviews and direct collaboration, I was able to learn directly from their experience and perspectives, but just as importantly, I had the opportunity to work alongside exceptional people at every level. Many of those professional relationships grew into lasting friendships, and each collaboration left a meaningful mark on both my work and my life.
                   </p>
                   <p className="text-[14px] leading-[1.7] text-[#0F0F3D] sm:text-[15px] md:text-[16px]">
-                    All of these encounters contributed deeply to my professional and
-                    personal growth, and for that, I am sincerely grateful.
+                    All of these encounters contributed deeply to my professional and personal growth, and for that, I am sincerely grateful.
                   </p>
                 </div>
               </div>
@@ -560,17 +551,17 @@ const CDCPage = () => {
       <section className="px-3 sm:px-5">
         <div className="mx-auto container-xl space-y-4 sm:space-y-5">
           <img
-            src="/assets/Image/website-img.png"
+            src="/assets/img/case-study-2.png"
             alt="CDC Platform Hero"
             className="w-full h-auto object-cover"
           />
           <img
-            src="/assets/Image/website-img1.png"
+            src="/assets/img/case-study1.png"
             alt="CDC Platform Hero"
             className="w-full h-auto object-cover"
           />
         </div>
-      </section>
+      </section >
 
       <section className="w-full px-3 pb-6 pt-12 sm:px-5 sm:pt-14 lg:pb-10 lg:pt-16">
         <div className="mx-auto container-xl">
@@ -579,7 +570,7 @@ const CDCPage = () => {
               <span className="flex h-10 w-10 items-center justify-center rounded-[6px] bg-[#F9F3F3] text-[24px] font-bold text-[#6B28F0]">
                 2
               </span>
-              <h3 className="text-[20px] font-normal tracking-[-0.02em] text-[#1A173F] sm:text-[24px] md:text-[26px]">
+              <h3 className="text-[20px] subtitle-page font-normal tracking-[-0.02em] text-[#1A173F] sm:text-[24px] md:text-[26px]">
                 Summit & Program Funnel
               </h3>
             </div>
@@ -597,12 +588,12 @@ const CDCPage = () => {
 
       <section className="w-full px-3 pb-6 pt-12 sm:px-5 sm:pt-14 lg:pb-10 lg:pt-16">
         <div className="mx-auto container-xl">
-          <div className="rounded-t-[15px] border border-[#EEEEEE] bg-[#FFF]">
-            <div className="flex items-center gap-3 p-4 py-8 sm:p-6 sm:py-9 md:p-8 md:py-10 lg:p-20 lg:py-10">
+          <div className="rounded-t-[15px] border border-[#EEEEEE] bg-[#FFF] ">
+            <div className="flex items-center gap-3 p-4 py-16 sm:p-6 sm:py-9 md:p-8 md:py-10 lg:p-20 lg:py-10">
               <span className="flex h-10 w-10 items-center justify-center rounded-[6px] bg-[#F9F3F3] text-[24px] font-bold text-[#6B28F0]">
                 3
               </span>
-              <h3 className="text-[20px] font-normal tracking-[-0.02em] text-[#1A173F] sm:text-[24px] md:text-[26px]">
+              <h3 className="text-[20px] subtitle-page font-normal tracking-[-0.02em] text-[#1A173F] sm:text-[24px] md:text-[26px]">
                 Program Delivery
               </h3>
             </div>
@@ -617,7 +608,7 @@ const CDCPage = () => {
           </div>
         </div>
       </section>
-    </div>
+    </div >
   );
 };
 

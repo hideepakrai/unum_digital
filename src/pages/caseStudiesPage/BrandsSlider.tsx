@@ -48,8 +48,12 @@ const brands = [
   { img: "/assets/Image/project-logo5.svg", alt: "Mercedes logo" },
   { img: "/assets/Image/project-logo6.svg", alt: "Amazon logo" },
 
-  
+
 ];
+
+
+
+
 
 const BrandsSlider = () => {
   return (
@@ -57,7 +61,7 @@ const BrandsSlider = () => {
       <div className=" mx-auto">
         {/* ---------- Bottom Brand Slider ---------- */}
         <div className="flex justify-center italic text-sm font-medium text-[#555555]">
-        <span className="text-center pb-6">Developed in collaboration with professionals from leading international education and consulting organizations.</span>
+          <span className="text-center pb-6">Developed in collaboration with professionals from leading international education and consulting organizations.</span>
         </div>
         <div className="pt-8 px-5 sm:px-5">
           <Swiper

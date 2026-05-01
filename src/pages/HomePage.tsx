@@ -43,13 +43,13 @@ export default function HomePage() {
       <SliderBrand />
 
       {/* <AboutStrip /> */}
-      <OurWork />
+      {/* <OurWork /> */}
       <CTASection />
-    
+
       <BrandPartnerSec />
       <Testimonialsnew />
-        <AboutSection />
-        <ContactFormsSec/>
+      <AboutSection />
+      <ContactFormsSec />
       {/* <IdeaInSightPage/> */}
     </main>
   );

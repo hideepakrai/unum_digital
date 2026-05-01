@@ -55,7 +55,7 @@ export default function App() {
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        
+
         <Route path='/what-we-do' element={<WhatWeDoPage />} />
         <Route path='/what-we-do/branding-strategy' element={<BrandingStrategyPage />} />
         <Route path='/what-we-do/content-marketing' element={<ContentMarketingPage />} />
@@ -84,10 +84,10 @@ export default function App() {
         <Route path="/who-we-create-for/ids" element={<IDS />} />
         <Route path="/who-we-create-for/navada" element={<NavadaPages />} />
         {/* <Route path="/case-studies/poliderma" element={<Poliderma />} /> */}
-         <Route path="/who-we-create-for/loreal" element={<LorealPage />} />
-         <Route path="/who-we-create-for/karlo-ban" element={<KarloBanPage />} />
-         {/* <Route path="/case-studies/navada" element={<NavadaPage />} /> */}
-         <Route path="/who-we-create-for/cdc" element={<CDCPage />} />
+        <Route path="/who-we-create-for/loreal" element={<LorealPage />} />
+        <Route path="/who-we-create-for/karlo-ban" element={<KarloBanPage />} />
+        {/* <Route path="/case-studies/navada" element={<NavadaPage />} /> */}
+        <Route path="/who-we-create-for/cdc" element={<CDCPage />} />
 
 
 

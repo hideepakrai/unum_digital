@@ -3,10 +3,11 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const Header = () => {
   const pathname = usePathname();
+  const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -19,11 +20,37 @@ const Header = () => {
   }
 
   const navItems = [
-    { name: "Our Services", href: "/our-services" },
-    { name: "Our Work", href: "/our-work" },
-    { name: "About Us", href: "/about-us" },
-
+    { name: "Our Services", href: "/#our-services" },
+    { name: "Our Work", href: "/#our-work" },
+    { name: "About Us", href: "/#about" },
   ];
+
+  // Smart scroll handler: same page → smooth scroll; other page → navigate then scroll
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    const hash = href.split("#")[1];
+    if (!hash) return;
+
+    if (pathname === "/") {
+      e.preventDefault();
+      setMobileOpen(false);
+      
+          // Small timeout to let the UI react (especially closing the mobile menu) before scrolling
+      setTimeout(() => {
+        const el = document.getElementById(hash);
+        if (el) {
+          const headerEl = document.querySelector('header');
+          const headerHeight = headerEl ? headerEl.offsetHeight : 72;
+          const elementPosition = el.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerHeight - 20; // 20px extra buffer
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }
+      }, 10);
+    }
+  };
 
   if (!mounted) {
     return (
@@ -34,7 +61,7 @@ const Header = () => {
               href="/"
               className="text-[22px] font-semibold tracking-[-0.03em] text-white sm:text-[24px] md:text-[26px]"
             >
-              UNUM.DIGITAL
+              UNUM.DIGITAL 
             </Link>
           </div>
         </div>
@@ -61,6 +88,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 href={item.href}
+                onClick={(e) => handleNavClick(e, item.href)}
                 className="text-[12px] font-medium text-white/90 transition-colors duration-200 hover:text-white xl:text-[13px]"
               >
                 {item.name}
@@ -68,7 +96,8 @@ const Header = () => {
             ))}
 
             <Link
-              href="/lets-talk"
+              href="/#lets-talk"
+              onClick={(e) => handleNavClick(e, "/#lets-talk")}
               className="inline-flex h-[38px] items-center justify-center rounded-full bg-[#31AC00] px-5 text-[12px] font-medium text-white transition-all duration-200 hover:bg-[#3eab10] xl:h-[40px] xl:px-6 xl:text-[13px]"
             >
               Let&apos;s Talk
@@ -98,7 +127,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  onClick={() => setMobileOpen(false)}
+                  onClick={(e) => handleNavClick(e, item.href)}
                   className="text-[14px] font-medium text-white/90 transition-colors hover:text-white"
                 >
                   {item.name}
@@ -106,8 +135,8 @@ const Header = () => {
               ))}
 
               <Link
-                href="/lets-talk"
-                onClick={() => setMobileOpen(false)}
+                href="/#lets-talk"
+                onClick={(e) => handleNavClick(e, "/#lets-talk")}
                 className="mt-1 inline-flex h-[42px] w-full items-center justify-center rounded-full bg-[#49c313] px-6 text-[14px] font-semibold text-white transition-all duration-200 hover:bg-[#3eab10] sm:w-fit sm:min-w-[160px]"
               >
                 Let&apos;s Talk

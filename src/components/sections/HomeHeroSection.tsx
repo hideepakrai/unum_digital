@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Import Swiper styles
@@ -127,10 +128,15 @@ export default function CreativeAgencySection() {
                     </span>
                     Play Showreel
                   </button>
-                  <button className="rounded-full border border-white/10 bg-[#0000003B] px-3 py-1.5 text-[14px] font-medium text-white backdrop-blur-sm md:px-5 md:py-2">
+                  <Link 
+                    href="/#our-work"
+                    className="rounded-full border border-white/10 bg-[#0000003B] px-3 py-1.5 text-[14px] font-medium text-white backdrop-blur-sm transition-all hover:bg-black/40 md:px-5 md:py-2"
+                  >
                     Our Work
-                  </button>
+                  </Link>
+                 
                 </div>
+                
               </div>
             </div>
           </div>
@@ -166,8 +172,8 @@ export default function CreativeAgencySection() {
           </div>
 
           {/* SERVICES */}
-          <div className="mt-10 md:mt-36">
-            <h3 className="text-[28px] font-semibold tracking-[-0.04em] text-white md:text-[34px]">
+          <div className="mt-10 scroll-mt-32 md:mt-36 md:mb-10" id="our-services">
+            <h3 className="pt-24 md:pt-0  text-[28px] font-semibold tracking-[-0.04em] text-white md:text-[34px]">
               Our Services:
             </h3>
 

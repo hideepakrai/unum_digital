@@ -6,7 +6,7 @@ const CTASection = () => {
   const { t } = useTranslation();
   return (
     // Section ko vertical padding di hai
-    <section className="pb-36 pt-20 bg-white">
+    <section id="our-services" className="pb-36 pt-20 bg-white">
 
       {/* Saare content ko center aur max-width di hai */}
       <div className="container mx-auto max-w-3xl text-center px-4">

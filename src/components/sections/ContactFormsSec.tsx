@@ -130,7 +130,7 @@ const ContactFormsSec: React.FC = () => {
     const labelCls = "text-[12px] font-semibold text-white/90 uppercase tracking-wider";
 
     return (
-        <section className="w-full bg-[#161E23] px-4 py-16 md:px-10 md:py-24">
+        <section id="lets-talk" className="w-full bg-[#161E23] scroll-mt-32 px-4 py-16 md:px-10 md:py-24">
             <div className="mx-auto max-w-7xl">
                 <h2 className="mb-12 text-center text-[32px] font-light text-white md:mb-16 md:text-[40px]">
                     Let's bring your stories to life!
@@ -293,7 +293,7 @@ const ContactFormsSec: React.FC = () => {
                                 <button
                                     type="submit"
                                     disabled={submitting}
-                                    className="flex items-center gap-3 rounded-full bg-[#31AC00] px-8 py-3 text-[16px] font-medium text-white transition-all hover:bg-[#2d9802] disabled:opacity-50"
+                                    className="flex items-center gap-3 rounded-full bg-[#31AC00] px-6 py-2 text-[16px] font-medium text-white transition-all hover:bg-[#2d9802] disabled:opacity-50"
                                 >
 
                                     <img src="../assets/img/contact-icon.svg" alt="" />
