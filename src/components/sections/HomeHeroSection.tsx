@@ -101,13 +101,13 @@ export default function CreativeAgencySection() {
 
   return (
     <section className="w-full bg-[#161E23] px-4 py-6 md:px-6 md:py-0">
-      <div className="mx-auto max-w-7xl ">
+      <div className="mx-auto max-w-8xl ">
         <div className="rounded-[10px] ] p-4 md:pb-10 px-0">
           {/* HERO */}
           <div className="relative overflow-hidden rounded-[8px]">
             <div className="relative h-[260px] w-full sm:h-[360px] lg:h-[630px]">
               <img
-                src="../assets/img/unumdigital-img (6).png"
+                src="../assets/img/home-hero-img.png"
                 alt="Creative direction for brands"
                 className="h-full w-full object-cover"
               />

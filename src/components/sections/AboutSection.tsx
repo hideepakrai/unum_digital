@@ -29,12 +29,12 @@ const teamMembers = [
 export default function AboutSection() {
     return (
         <section id="about" className="w-full bg-[#161E23] scroll-mt-32 px-4 py-16 md:px-10 md:py-18">
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-8xl">
                 {/* HERO BANNER SECTION */}
                 <div className="relative mb-16 overflow-hidden rounded-t-[15px] md:mb-24">
                     <div className="relative h-[400px] w-full md:h-[500px]">
                         <img
-                            src="/assets/img/mask-1.png"
+                            src="/assets/img/about-img.png"
                             alt="About Us Banner"
                             className="h-full w-full object-cover"
                         />
@@ -46,7 +46,7 @@ export default function AboutSection() {
                                 About Us
                             </h2>
                             <p className="mt-6 max-w-[480px] text-[16px] leading-[1.6] text-white/90 md:text-[20px]">
-                                A team of experienced creatives, each with a long-standing career in the industry and deep expertise in our respective fields. With decades of experience, we bring together strategy, design, and execution to deliver work that performs. Across every collaboration, our goal remains the same: to raise the value of our clients’ products and their business in large.
+                               A team of experienced creatives, each with a long-standing career in the industry and deep expertise in our respective fields. With decades of experience, we bring together strategy, design, and execution to deliver work that performs. Across every collaboration, our goal remains the same: to raise the value of our clients’ products and their business in large.
                             </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ export default function AboutSection() {
 
                                 <div className="space-y-6">
                                     {member.bio.split('\n\n').map((paragraph, idx) => (
-                                        <p key={idx} className="text-[13px] leading-[1.8] text-white/70 md:text-[14px]">
+                                        <p key={idx} className="text-[13px] leading-[1.8] text-white/70 md:text-[16px]">
                                             {paragraph}
                                         </p>
                                     ))}

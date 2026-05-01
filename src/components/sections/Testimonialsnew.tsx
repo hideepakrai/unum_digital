@@ -85,7 +85,7 @@ export default function Testimonialsnew() {
 
   return (
     <section className="relative overflow-hidden bg-[#161E23] px-4 py-10 text-white md:px-8 md:py-16">
-      <div className="mx-auto max-w-[1220px]">
+      <div className="mx-auto max-w-8xl">
         {/* top heading box */}
         <div className="rounded-[16px] bg-[#1A2329] px-5 py-6 md:px-10 md:py-8">
           <h2 className="text-[18px] font-normal tracking-[-0.02em] text-white md:text-[30px]">

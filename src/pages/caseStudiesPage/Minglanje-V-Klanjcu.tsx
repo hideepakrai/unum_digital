@@ -19,7 +19,7 @@ const MinglanjeVKlanjcu = () => {
                          <img src="/assets/Image/Samobor-logo.svg" alt="" />
                         </div>
 
-                        <h2 className="text-[24px] sm:text-[28px] md:text-[32px] text-[#555555] leading-[1.3] font-light mt-4 pb-14 " style={{ fontFamily: "'Optima', 'Times New Roman', serif" }}>
+                        <h2 className="text-[24px] sm:text-[28px] md:text-[32px] text-[#555555] leading-[1.3] font-light mt-4 pb-14 " style={{ fontFamily: "Inter, sans-serif" }}>
                             One whole street decided to<br className="hidden sm:block" />
                             have the festival of their own,<br className="hidden sm:block" />
                             so we were honored when<br className="hidden sm:block" />
@@ -78,7 +78,7 @@ const MinglanjeVKlanjcu = () => {
             <section className="w-full max-w-[1200px] mx-auto px-4 md:px-0 mb-16 sm:mb-24">
                 <div className="w-full bg-[#f9f9f9] rounded-[20px] p-10 sm:p-16 md:p-24 flex flex-col items-center shadow-sm">
                     <div className="max-w-[500px] w-full flex flex-col items-start text-left">
-                        <p className="text-[20px] sm:text-[24px] md:text-[28px] text-[#444444] italic leading-[1.3] font-light" style={{ fontFamily: "'Optima', 'Times New Roman', serif" }}>
+                        <p className="text-[20px] sm:text-[24px] md:text-[28px] text-[#444444] italic leading-[1.3] font-light" style={{ fontFamily: "Inter, sans-serif" }}>
                             'Samobor je grad malih uličica,
                             mirisnog cvijeća, i ljudi koji vole
                             svoj mir.'
@@ -102,7 +102,7 @@ const MinglanjeVKlanjcu = () => {
 
             {/* The Result Section */}
             <section className="w-full max-w-[1200px] mx-auto px-4 lg:px-0 flex flex-col items-center">
-                <h3 className="text-[20px] sm:text-[40px] text-[#555555] mb-10 sm:mb-6 text-center" style={{ fontFamily: "'Optima', 'Times New Roman', serif" }}>
+                <h3 className="text-[20px] sm:text-[40px] text-[#555555] mb-10 sm:mb-6 text-center" style={{ fontFamily: "Inter, sans-serif" }}>
                     The result:
                 </h3>
 
@@ -124,7 +124,7 @@ const MinglanjeVKlanjcu = () => {
                             <span className="text-[28px] sm:text-[36px]">CU</span>
                         </div> */}
                         <div className="absolute bottom-6 right-6 text-right text-white">
-                            <h4 className="text-[32px] sm:text-[40px] leading-none mb-2" style={{ fontFamily: "'Optima', 'Times New Roman', serif" }}>Marda</h4>
+                            <h4 className="text-[32px] sm:text-[40px] leading-none mb-2" style={{ fontFamily: "Inter, sans-serif" }}>Marda</h4>
                             <p className="text-[10px] sm:text-[12px] font-sans tracking-wide">
                                 22.12.2026. u 19h  / Lokacija: Klanjec, Samobor
                             </p>

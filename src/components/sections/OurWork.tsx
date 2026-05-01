@@ -58,7 +58,7 @@ export default function WhoWeCreateFor() {
 
   return (
     <section className="bg-white py-16 px-4 md:px-0 md:py-18">
-      <div className="max-w-7xl mx-auto px-0">
+      <div className="max-w-8xl mx-auto px-0">
         <div className="mx-auto mb-12 max-w-3xl text-center md:mb-16">
           <h2 className="mb-4 text-3xl font-semibold text-[#161E23] md:text-[40px]">
     Who We Create For (Mostly)?

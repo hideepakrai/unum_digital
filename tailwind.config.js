@@ -12,9 +12,14 @@ export default {
   				'system-ui'
   			],
   			optima: [
-  				'Optima',
+  				'Inter',
   				'sans-serif'
   			]
+  		},
+  		maxWidth: {
+  			'7xl': '90rem',
+  			'8xl': '90rem',
+  			'9xl': '100rem',
   		},
   		colors: {
   			brand: {
