@@ -72,7 +72,7 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full bg-[#161E23]">
       <div className="relative w-full px-4 md:px-6">
-          <div className="mx-auto flex h-[72px] max-w-8xl items-center justify-between px-5 md:px-8">
+          <div className="mx-auto flex h-[72px] max-w-8xl items-center justify-between px-5 md:px-0">
           {/* Logo */}
           <Link
             href="/"
