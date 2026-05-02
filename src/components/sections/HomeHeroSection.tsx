@@ -18,15 +18,15 @@ const stats = [
   },
   {
     value: "100+",
-    text: "marketing funnels planned, designed, produced and delivered",
-  },
-  {
-    value: "750+",
-    text: "videos, video ads, AI-motion graphic videos produced",
+    text: "marketing funnels planed, designed, produced and delivered",
   },
   {
     value: "6,500+",
     text: "hours in total of educational videos produced",
+  },
+  {
+    value: "8200+",
+    text: "videos, video ads, AI-motion graphic videos produced",
   },
   {
     value: "12,000+",
@@ -149,7 +149,7 @@ export default function CreativeAgencySection() {
                   <div className="text-[30px] font-semibold leading-none tracking-[-0.04em] text-[#7997A8] md:text-[34px]">
                     {item.value}
                   </div>
-                  <p className="mt-2 text-[14px] leading-[1.45] text-white md:max-w-[186px]">
+                  <p className="mt-2 text-[14px] leading-[1.45] text-white md:max-w-[158px]">
                     {item.text}
                   </p>
                 </div>
@@ -207,7 +207,7 @@ export default function CreativeAgencySection() {
                     <div className="overflow-hidden rounded-[14px] bg-[#0d1d28] w-full">
                       <div className="grid md:grid-cols-[0.95fr_1.05fr] h-full">
                         {/* LEFT */}
-                        <div className="bg-[#242E34] px-6 py-8 md:px-10 md:py-14 flex flex-col h-full">
+                        <div className="bg-[#242E34] px-6 py-8 md:px-[95px] md:pt-[85px] md:pb-18 md:ps-18 md:pe-10 flex flex-col h-full">
                           <h4 className="text-[28px] font-semibold tracking-[-0.03em] text-white md:text-[30px]">
                             {service.title}
                           </h4>
@@ -253,13 +253,13 @@ export default function CreativeAgencySection() {
             <div className="mt-8 flex justify-center gap-4">
               <button
                 onClick={() => swiperInstance?.slidePrev()}
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#1B242A] text-white transition-all hover:bg-[#2B495A] border border-[#2B495A]"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#242E34] text-white transition-all hover:bg-[#2B495A] border border-[#242E34]"
               >
                 <ChevronLeft size={24} />
               </button>
               <button
                 onClick={() => swiperInstance?.slideNext()}
-                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#1B242A] text-white transition-all hover:bg-[#2B495A] border border-[#2B495A]"
+                className="flex h-12 w-12 items-center justify-center rounded-full bg-[#242E34] text-white transition-all hover:bg-[#2B495A] border border-[#242E34]"
               >
                 <ChevronRight size={24} />
               </button>
