@@ -23,7 +23,7 @@ const LorealPage = () => {
               </div>
 
               <h2
-                className="text-[25px] md:text-[35px] leading-[120%] text-white md:pt-36 pt-10 md:pe-0 pe-0"
+                className="text-[25px] md:text-[35px] leading-[120%] text-white md:pt-36 pt-10 md:pe-0 pe-0 font-[500]"
                 style={{ fontFamily: "Inter, sans-serif" }}
               >
                 The packaging served as the initial reference point; the full

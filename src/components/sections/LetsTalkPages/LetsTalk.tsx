@@ -332,7 +332,7 @@ const LetsTalk: React.FC = () => {
     <>
 
       <section className="w-full bg-white pb-8 pt-16 md:pb-2 md:pt-18">
-        <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-8xl px-4">
           <h1 className="mb-4 text-4xl font-semibold leading-tight text-[#0F0F3D] md:text-[50px]">
             {content.heroTitle}
           </h1>
@@ -343,7 +343,7 @@ const LetsTalk: React.FC = () => {
       </section>
 
       <section id="demo" className="w-full bg-white py-10 md:py-14">
-        <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-8xl px-4">
           <div className="grid grid-cols-1 gap-6 overflow-hidden md:grid-cols-2">
             <div className="flex min-h-[520px] flex-col rounded-[20px] bg-[#31AC00] p-8 text-white md:p-10">
               <h4 className="text-xl font-semibold">{content.demo.panelTitle}</h4>
@@ -464,7 +464,7 @@ const LetsTalk: React.FC = () => {
       </section>
 
       <section id="ask" className="w-full bg-[#F8F8F8] py-10 md:py-14">
-        <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-8xl px-4">
           <div className="grid grid-cols-1 gap-6 overflow-hidden md:grid-cols-2">
             <div className="flex min-h-[480px] flex-col rounded-[20px] bg-[#0F0F3D] p-8 text-white md:p-10">
               <h4 className="text-xl font-semibold">{content.ask.panelTitle}</h4>

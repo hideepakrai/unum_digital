@@ -3,7 +3,7 @@ import React from 'react'
 const WhatToExpect = () => {
   return (
     <section className="w-full py-10 md:py-14 bg-white">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-8xl mx-auto px-4">
         <div
           className="
             bg-[#F8F8F8]

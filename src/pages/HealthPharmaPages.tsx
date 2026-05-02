@@ -76,63 +76,7 @@ const GoldButton = ({ children, href }: GoldButtonProps) => {
 const HealthPharmaPages = () => {
   return (
     <div className="w-full bg-white overflow-x-hidden">
-      {/* HERO SECTION */}
-      {/* <section className="w-full px-3 py-3 sm:px-5 sm:py-5">
-        <div className="mx-auto container-xl">
-          <div className="grid overflow-hidden rounded-[18px] bg-[#ecebea] lg:grid-cols-[0.98fr_1.02fr]">
-            <div className="flex items-center order-2 lg:order-1">
-              <div className="w-full px-4 py-7 sm:px-8 sm:py-10 md:px-10 md:py-12 lg:pb-[74px] lg:ps-[60px] lg:pe-8">
-                <div className="mb-7 flex flex-wrap items-center gap-2 sm:gap-3 text-[13px] text-[#666666] sm:mb-10 lg:mb-14">
-                  <span className="text-[14px] sm:text-[15px] font-semibold text-[#444444]">
-                    Who We Create For
-                  </span>
-                  <span className="text-[#9b9b9b]">|</span>
-                  <span className="text-[13px] italic text-[#666666]">
-                    Health, Pharma &amp; Beauty
-                  </span>
-                </div>
 
-                <div>
-                  <h1
-                    className="max-w-[500px] text-[28px] sm:text-[34px] md:text-[40px] lg:text-[38px] font-[400] leading-[1.08] tracking-[-0.03em] text-[#555555]"
-                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
-                  >
-                    Health, pharma &amp; beauty brands don't grow on attention.
-                    They grow on trust.
-                  </h1>
-
-                  <p className="mt-5 sm:mt-6 lg:mt-7 max-w-[430px] text-[15px] sm:text-[16px] leading-[1.75] text-[#666666]">
-                    We help health, pharma and beauty businesses scale complex
-                    ecosystems — without losing credibility, clinical authority
-                    or SEO equity.
-                  </p>
-
-                  <div className="mt-7 sm:mt-8 lg:mt-9 flex flex-col gap-3">
-                    <GoldButton href="/lets-talk#ask">
-                      Talk about scaling without losing trust
-                    </GoldButton>
-
-                    <GoldButton href="/lets-talk#demo">
-                      See how medical brands grow with us
-                    </GoldButton>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="order-1 lg:order-2 p-[2px]">
-              <div className="relative h-[260px] overflow-hidden sm:h-[340px] md:h-[430px] lg:h-full lg:min-h-[552px]">
-                <img
-                  src="/assets/hero/health-pharma-img.png"
-                  alt="Health pharma beauty product"
-                  className="h-full w-full object-cover object-center"
-                />
-                <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.12)_0%,rgba(255,255,255,0)_28%,rgba(255,255,255,0)_100%)]" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
 
 
 
@@ -191,15 +135,13 @@ const HealthPharmaPages = () => {
 
 
 
-
       {/* REALITY SECTION */}
       <section className="w-full px-3 pb-6 pt-0 sm:px-5 sm:pb-8 lg:pb-10">
         <div className="mx-auto container-xl rounded-[2px]">
           <div className="px-4 py-10 sm:px-8 sm:py-12 md:px-10 lg:px-[120px] lg:py-[68px]">
             <div className="mx-auto max-w-[700px] text-center">
               <h2
-                className="text-[26px] sm:text-[31px] md:text-[38px] lg:text-[40px] font-normal leading-[1.2] tracking-[-0.02em] text-[#6b5a53]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-title text-[#6b5a53] sm:text-[31px] md:text-[38px] lg:text-[40px]"
               >
                 The reality of health, pharma &amp; beauty brands
               </h2>
@@ -217,8 +159,7 @@ const HealthPharmaPages = () => {
                 </h3>
 
                 <p
-                  className="mt-4 sm:mt-5 text-[22px] sm:text-[26px] md:text-[26px] font-normal leading-[1.28] tracking-[-0.015em] text-[#6e5f58]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body mt-4 text-[#6e5f58] sm:mt-5 sm:text-[22px] md:text-[24px] lg:text-[20px]"
                 >
                   What starts as a single clinic, product or service often
                   expands into multiple brands, platforms and offerings,
@@ -258,8 +199,7 @@ const HealthPharmaPages = () => {
                 </h3>
 
                 <p
-                  className="mt-8 sm:mt-10 md:mt-14 lg:mt-[72px] text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.35] tracking-[-0.015em] text-[#6f5e57]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body mt-8 text-[#6f5e57] sm:mt-10 md:mt-14 lg:mt-[72px] lg:text-[20px]"
                 >
                   Growth in regulated, trust-based industries doesn't come from
                   campaigns. It comes from structural clarity across the entire
@@ -278,8 +218,7 @@ const HealthPharmaPages = () => {
 
             <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
               <h3
-                className="text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.3] tracking-[-0.015em] text-[#75645d]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-heading text-[#75645d] sm:text-[24px] md:text-[26px] lg:text-[26px]"
               >
                 Health, pharma and beauty brands scale when they have:
               </h3>
@@ -298,8 +237,7 @@ const HealthPharmaPages = () => {
               <div className="mt-9 sm:mt-12 lg:mt-[48px] flex items-start gap-3 sm:gap-4">
                 <QuoteMark />
                 <p
-                  className="text-[20px] sm:text-[22px] font-normal leading-[1.35] tracking-[-0.015em] text-[#74625b]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body text-[#74625b] sm:text-[22px] lg:text-[20px]"
                 >
                   That's what we build, by treating growth as ecosystem
                   architecture, not marketing execution.
@@ -315,8 +253,7 @@ const HealthPharmaPages = () => {
         <div className="mx-auto container-xl">
           <div className="text-center">
             <h2
-              className="text-[26px] sm:text-[31px] md:text-[36px] lg:text-[40px] font-normal leading-[1.18] tracking-[-0.02em] text-[#6d5b55]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-title text-[#6d5b55] sm:text-[31px] md:text-[36px] lg:text-[40px]"
             >
               How this works in real medical &amp; cosmetic ecosystems
             </h2>
@@ -370,8 +307,7 @@ const HealthPharmaPages = () => {
             </h3>
 
             <p
-              className="mt-3 max-w-[620px] text-[22px] sm:text-[26px] md:text-[28px] font-normal leading-[1.33] tracking-[-0.015em] text-[#6f5e58]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-body mt-3 max-w-[620px] text-[#6f5e58] sm:text-[26px] md:text-[28px] lg:text-[20px]"
             >
               In health-related industries, trust compounds slowly, and breaks
               quickly.
@@ -382,11 +318,10 @@ const HealthPharmaPages = () => {
             <div className="overflow-hidden rounded-[16px] bg-[#ece9e7] lg:grid lg:grid-cols-[0.95fr_1.05fr]">
               <div className="flex items-center justify-center px-5 py-8 sm:px-8 sm:py-10 lg:px-[25px]">
                 <p
-                  className=" text-center text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.38] tracking-[-0.015em] text-[#73635b]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body text-center text-[#73635b] sm:text-[24px] md:text-[26px] lg:text-[20px]"
                 >
                   Instead of running isolated campaigns,{" "}
-                  <span className="text-[#d5943b]">
+                  <span className="font-semibold text-[#d5943b]">
                     we design ecosystems where medical authority, content, UX
                     and performance reinforce one another,
                   </span>{" "}
@@ -411,8 +346,7 @@ const HealthPharmaPages = () => {
         <div className="mx-auto container-xl">
           <div className="flex flex-col items-center justify-center px-2 sm:px-4 py-4 sm:py-6 text-center">
             <h2
-              className="max-w-2xl text-[26px] sm:text-[32px] md:text-[36px] lg:text-[41px] font-normal leading-[1.15] tracking-[-0.02em] text-[#6e5c56]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-title max-w-2xl text-[#6e5c56] sm:text-[32px] md:text-[36px] lg:text-[40px]"
             >
               Ready to scale your health or beauty ecosystem without losing
               authority?

@@ -134,7 +134,7 @@ const ServicesSection = () => {
       <div className="relative mt-4 overflow-hidden rounded-[16px]  bg-[#1D2931]">
 
 
-        <div className="mx-auto max-w-5xl px-6 py-12 text-center text-white sm:px-8 sm:py-16 lg:px-12 lg:py-16">
+        <div className="mx-auto max-w-8xl px-6 py-12 text-center text-white sm:px-8 sm:py-16 lg:px-12 lg:py-16">
           <h3 className="text-3xl font-light leading-tight md:text-4xl">
             How Our Subscription Model Works
           </h3>

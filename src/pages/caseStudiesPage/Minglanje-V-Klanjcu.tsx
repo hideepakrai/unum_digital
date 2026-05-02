@@ -4,7 +4,7 @@ const MinglanjeVKlanjcu = () => {
     return (
         <div className="w-full bg-white pb-20 font-inter">
             {/* Top Hero Section */}
-            <section className="container-xl">
+            <section className="max-w-8xl mx-auto">
                 <div className='grid lg:grid-cols-[1fr_1fr] px-4 md:px-0 py-6'>
                 {/* Left Text */}
                 <div className="flex-1 bg-[#F4F3F0] p-8 sm:px-12 md:px-16 lg:px-20 relative flex flex-col justify-start md:rounded-s-[15px] rounded-t-[15px]">
@@ -19,7 +19,7 @@ const MinglanjeVKlanjcu = () => {
                          <img src="/assets/Image/Samobor-logo.svg" alt="" />
                         </div>
 
-                        <h2 className="text-[24px] sm:text-[28px] md:text-[32px] text-[#555555] leading-[1.3] font-light mt-4 pb-14 " style={{ fontFamily: "Inter, sans-serif" }}>
+                        <h2 className="text-[24px] sm:text-[28px] md:text-[32px] text-[#555555] leading-[1.3] font-[500] mt-4 pb-14 " style={{ fontFamily: "Inter, sans-serif" }}>
                             One whole street decided to<br className="hidden sm:block" />
                             have the festival of their own,<br className="hidden sm:block" />
                             so we were honored when<br className="hidden sm:block" />
@@ -37,7 +37,7 @@ const MinglanjeVKlanjcu = () => {
                     />
                     {/* Text overlay on image */}
                     {/* <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                        <div className="text-white text-center flex flex-col items-center leading-[0.9] tracking-widest" style={{ fontFamily: "'Optima', 'Times New Roman', serif" }}>
+                        <div className="text-white text-center flex flex-col items-center leading-[0.9] tracking-widest">
                             <span className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px]">MIN</span>
                             <span className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px]">GLA</span>
                             <span className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px]">NJ<span className="relative">E<span className="absolute -top-[10px] left-1/2 -translate-x-1/2 text-[20px]">~</span></span></span>
@@ -50,7 +50,7 @@ const MinglanjeVKlanjcu = () => {
             </section>
 
             {/* Middle Section 1 (Illustration & Text) */}
-            <section className=" container-xl ">
+            <section className=" max-w-8xl mx-auto ">
                 <div className='w-full px-4 mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-20 px-4 md:px-0 mb-20 sm:mb-32'>
                 {/* Sketch Image */}
                 <div className="flex-1 flex justify-center flex-col items-center relative">
@@ -75,7 +75,7 @@ const MinglanjeVKlanjcu = () => {
             </section>
 
             {/* Quote Section */}
-            <section className="w-full max-w-[1200px] mx-auto px-4 md:px-0 mb-16 sm:mb-24">
+            <section className="max-w-8xl mx-auto px-4 md:px-0 mb-16 sm:mb-24">
                 <div className="w-full bg-[#f9f9f9] rounded-[20px] p-10 sm:p-16 md:p-24 flex flex-col items-center shadow-sm">
                     <div className="max-w-[500px] w-full flex flex-col items-start text-left">
                         <p className="text-[20px] sm:text-[24px] md:text-[28px] text-[#444444] italic leading-[1.3] font-light" style={{ fontFamily: "Inter, sans-serif" }}>
@@ -101,7 +101,7 @@ const MinglanjeVKlanjcu = () => {
             </section>
 
             {/* The Result Section */}
-            <section className="w-full max-w-[1200px] mx-auto px-4 lg:px-0 flex flex-col items-center">
+            <section className="max-w-8xl mx-auto px-4 lg:px-0 flex flex-col items-center">
                 <h3 className="text-[20px] sm:text-[40px] text-[#555555] mb-10 sm:mb-6 text-center" style={{ fontFamily: "Inter, sans-serif" }}>
                     The result:
                 </h3>
@@ -115,7 +115,7 @@ const MinglanjeVKlanjcu = () => {
                             className="absolute inset-0 w-full h-full object-cover opacity-80"
                         />
                         {/* Overlay texts */}
-                        {/* <div className="absolute top-10 left-10 text-white flex flex-col items-start leading-[0.9] tracking-widest" style={{ fontFamily: "'Optima', 'Times New Roman', serif" }}>
+                        {/* <div className="absolute top-10 left-10 text-white flex flex-col items-start leading-[0.9] tracking-widest">
                             <span className="text-[28px] sm:text-[36px]">MIN</span>
                             <span className="text-[28px] sm:text-[36px]">GLA</span>
                             <span className="text-[28px] sm:text-[36px]">NJ<span className="relative">E<span className="absolute -top-[5px] left-1/2 -translate-x-1/2 text-[14px]">~</span></span></span>
@@ -143,7 +143,7 @@ const MinglanjeVKlanjcu = () => {
             </section>
 
             {/* 3 New Bottom Sections */}
-            <div className="w-full max-w-[1200px] mx-auto px-4 md:px-0 mt-4 sm:mt-6 flex flex-col gap-4 sm:gap-6">
+            <div className="max-w-8xl mx-auto px-4 md:px-0 mt-4 sm:mt-6 flex flex-col gap-4 sm:gap-6">
 
 
                 {/* Section 3: Logo Left (different layout), Sketch Right with markings */}
