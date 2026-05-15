@@ -9,32 +9,32 @@ const teamMembers = [
         role: "CEO & Creative Director",
         image: "/assets/img/unumdigital-img (5).png",
 
-        bio: "Over the past 20+ years, I've led brand, design, and production across education, consulting, healthcare, tourism, and SaaS platforms. Biggest opportunity was designing for Coaching.com, one of the leading global education platforms, where I collaborated closely with top thought leaders, professors, and business professionals from the worlds prestige schools and universities, while leading creative teams and building scalable systems that supported both learning and revenue growth.\n\nAcross that time, I've led teams of 20+ creatives, developed 100+ marketing funnels contributing to over $38M in conversions, and directed the production of thousands of hours of educational and marketing content.\n\nToday, is to work with companies that want to raise the visual and overall value of their product, brand, and communication, and turn that into measurable growth.",
+        bio: "Over the past 20+ years, I’ve led brand,  design, and production across education, consulting, healthcare,  tourism, and SaaS platforms. Biggest opportunity was designing for Coaching.com, one of the leading global education platforms, where I collaborated closely with top thought leaders, professors, and business  professionals from the worlds prestige schools and universities, while leading creative teams and building scalable  systems that supported both learning and revenue growth.\n\nAcross  that time, I’ve led teams of 20+ creatives, developed 100+ marketing  funnels contributing to over $38M in conversions, and directed the  production of thousands of hours of educational and marketing content.\n\nToday, is to work with companies that want to raise the visual and overall value  of their product, brand, and communication, and turn that into measurable growth.",
     },
     {
         name: "Hrvoje Kovačević",
         role: "Executive Producer",
 
         image: "/assets/img/unumdigital-img (7).png",
-        bio: "Video producer, motion graphics artist, and cinematic storyteller with over 20 years of experience crafting high-end visual work for some of the world's most recognized brands. Over the years, he has contributed to projects for L'Oreal, Maybelline, Lexus, Peugeot, Nestlé, Nesquik, Pliva, Teva, Sandoz, and Novartis, among many others.\n\nHis expertise covers the full creative pipeline, from concept development and visual direction to motion design, editing, VFX, and premium post-production. With a strong eye for detail, atmosphere, and storytelling, Hrvoje is known for creating visually striking work that combines elegance, clarity, and cinematic impact.\n\nWhether developing branded campaigns, commercial content, or ambitious original projects, his goal is always the same: to create work that stands out, feels world-class, and connects with audiences on a deeper level.",
+        bio: "Video producer, motion graphics artist, and cinematic storyteller with over 20 years of experience crafting high-end visual work for some of the world’s most recognized brands. Over the years, he has contributed to projects for L’Oréal, Maybelline, Lexus, Peugeot, Nestlé, Nesquik, Pliva, Teva, Sandoz, and Novartis, among many others.\n\nHis expertise covers the full creative pipeline, from concept development and visual direction to motion design, editing, VFX, and premium post-production. With a strong eye for detail, atmosphere, and storytelling, Hrvoje is known for creating visually striking work that combines elegance, clarity, and cinematic impact.\n\nWhether developing branded campaigns, commercial content, or ambitious original projects, his goal is always the same: to create work that stands out, feels world-class, and connects with audiences on a deeper level.",
     },
     {
         name: "Tea Hreščič",
         role: "Creative Director",
         image: "/assets/img/unumdigital-img (8).png",
-        bio: "Over the past 20+ years, I've led brand, design, and production across education, consulting, healthcare, tourism, and SaaS platforms. For more than a decade, I worked with Coaching.com, one of the leading global education platforms, where I collaborated closely with top thought leaders, professors, and business professionals, while leading creative teams and building scalable systems that supported both learning and revenue growth.\n\nAcross that time, I've led teams of 20+ creatives, developed 100+ marketing funnels contributing to over $38M in conversions, and directed the production of thousands of hours of educational and marketing content.\n\nToday, is to work with companies that want to raise the visual and overall value of their product, brand, and communication, and turn that into measurable growth.",
+        bio: "Over the past 20+ years, I’ve led brand,  design, and production across education, consulting, healthcare,  tourism, and SaaS platforms. For more than a decade, I worked with  Coaching.com, one of the leading global education platforms, where I  collaborated closely with top thought leaders, professors, and business  professionals, while leading creative teams and building scalable  systems that supported both learning and revenue growth.\n\nAcross  that time, I’ve led teams of 20+ creatives, developed 100+ marketing  funnels contributing to over $38M in conversions, and directed the  production of thousands of hours of educational and marketing content.\n\nToday, is to work with companies that want to raise the visual and overall value  of their product, brand, and communication, and turn that into measurable growth.",
     },
 ];
 
 export default function AboutSection() {
     return (
         <section id="about" className="w-full bg-[#161E23] scroll-mt-32 px-4 py-16 md:px-10 md:py-18">
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-8xl">
                 {/* HERO BANNER SECTION */}
                 <div className="relative mb-16 overflow-hidden rounded-t-[15px] md:mb-24">
                     <div className="relative h-[400px] w-full md:h-[500px]">
                         <img
-                            src="/assets/img/mask-1.png"
+                            src="/assets/img/about-img.png"
                             alt="About Us Banner"
                             className="h-full w-full object-cover"
                         />
@@ -46,7 +46,7 @@ export default function AboutSection() {
                                 About Us
                             </h2>
                             <p className="mt-6 max-w-[480px] text-[16px] leading-[1.6] text-white/90 md:text-[20px]">
-                                A team of experienced creatives, each with a long-standing career in the industry and deep expertise in our respective fields. With decades of experience, we bring together strategy, design, and execution to deliver work that performs. Across every collaboration, our goal remains the same: to raise the value of our clients’ products and their business in large.
+                               A team of experienced creatives, each with a long-standing career in the industry and deep expertise in our respective fields. With decades of experience, we bring together strategy, design, and execution to deliver work that performs. Across every collaboration, our goal remains the same: to raise the value of our clients’ products and their business in large.
                             </p>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ export default function AboutSection() {
 
                                 <div className="space-y-6">
                                     {member.bio.split('\n\n').map((paragraph, idx) => (
-                                        <p key={idx} className="text-[13px] leading-[1.8] text-white/70 md:text-[14px]">
+                                        <p key={idx} className="text-[13px] leading-[1.8] text-white/70 md:text-[16px]">
                                             {paragraph}
                                         </p>
                                     ))}

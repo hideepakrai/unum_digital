@@ -55,8 +55,8 @@ const Header = () => {
   if (!mounted) {
     return (
       <header className="sticky top-0 z-50 w-full bg-transparent">
-        <div className="w-full ">
-          <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20">
+        <div className="w-full px-4 md:px-6">
+          <div className="mx-auto flex h-[72px] max-w-8xl items-center justify-between px-5 md:px-8">
             <Link
               href="/"
               className="text-[22px] font-semibold tracking-[-0.03em] text-white sm:text-[24px] md:text-[26px]"
@@ -71,8 +71,8 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-[#161E23]">
-      <div className="relative w-full">
-        <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20">
+      <div className="relative w-full px-4 md:px-6">
+          <div className="mx-auto flex h-[72px] max-w-8xl items-center justify-between px-5 md:px-0">
           {/* Logo */}
           <Link
             href="/"

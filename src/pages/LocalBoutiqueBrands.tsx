@@ -139,10 +139,9 @@ const LocalBoutiqueBrands = () => {
           <div className="px-4 py-10 sm:px-8 sm:py-12 md:px-10 lg:px-[120px] lg:py-[68px]">
             <div className="mx-auto  text-center">
               <h2
-                className="text-[26px] sm:text-[31px] md:text-[38px] lg:text-[40px] font-normal leading-[1.2] tracking-[-0.02em] text-[#6b5a53]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-title text-[#6b5a53] sm:text-[31px] md:text-[38px] lg:text-[40px]"
               >
-                 The reality of local & boutique brands
+                The reality of local & boutique brands
               </h2>
 
               <p className="mx-auto mt-3 max-w-[500px] text-[14px] sm:text-[18px] leading-[1.55] text-[#786d68]">
@@ -157,8 +156,7 @@ const LocalBoutiqueBrands = () => {
                 </h3>
 
                 <p
-                  className="mt-4 sm:mt-5 text-[22px] sm:text-[26px] md:text-[26px] font-normal leading-[1.28] tracking-[-0.015em] text-[#6e5f58]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body mt-4 text-[#6e5f58] sm:mt-5 sm:text-[22px] md:text-[24px] lg:text-[20px]"
                 >
                  Quality alone isn't enough in crowded markets where everything looks similar and price becomes the default differentiator.
                 </p>
@@ -196,8 +194,7 @@ const LocalBoutiqueBrands = () => {
                 </h3>
 
                 <p
-                  className="mt-8 sm:mt-10 md:mt-14 lg:mt-[72px] text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.35] tracking-[-0.015em] text-[#6f5e57]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body mt-8 text-[#6f5e57] sm:mt-10 md:mt-14 lg:mt-[72px] lg:text-[20px]"
                 >
                   Boutique brands don't grow by shouting louder or discounting more.  They grow by making their value unmistakably clear, emotionally, visually and strategically.
                 </p>
@@ -214,8 +211,7 @@ const LocalBoutiqueBrands = () => {
 
             <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
               <h3
-                className="text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.3] tracking-[-0.015em] text-[#75645d]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-heading text-[#75645d] sm:text-[24px] md:text-[26px] lg:text-[26px]"
               >
                Boutique brands scale when they have:
               </h3>
@@ -234,8 +230,7 @@ const LocalBoutiqueBrands = () => {
               <div className="mt-9 sm:mt-12 lg:mt-[48px] flex items-start gap-3 sm:gap-4">
                 <QuoteMark />
                 <p
-                  className="text-[20px] sm:text-[22px] font-normal leading-[1.35] tracking-[-0.015em] text-[#74625b]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body text-[#74625b] sm:text-[22px] lg:text-[20px]"
                 >
                  That's what we build, by turning products into brands and brands into scalable systems.
                 </p>
@@ -250,8 +245,7 @@ const LocalBoutiqueBrands = () => {
         <div className="mx-auto container-xl">
           <div className="text-center">
             <h2
-              className="text-[26px] sm:text-[31px] md:text-[36px] lg:text-[40px] font-normal leading-[1.18] tracking-[-0.02em] text-[#6d5b55]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-title text-[#6d5b55] sm:text-[31px] md:text-[36px] lg:text-[40px]"
             >
              How this works in real boutique brands
             </h2>
@@ -309,8 +303,7 @@ const LocalBoutiqueBrands = () => {
             </h3>
 
             <p
-              className="mt-3 text-[22px] sm:text-[26px] md:text-[28px] font-normal leading-[1.33] tracking-[-0.015em] text-[#6f5e58]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-body mt-3 text-[#6f5e58] sm:text-[26px] md:text-[28px] lg:text-[20px]"
             >
              Boutique brands can't win by copying mass-market tactics.  They win by creating meaning customers are willing to pay for.
             </p>
@@ -320,11 +313,10 @@ const LocalBoutiqueBrands = () => {
             <div className="overflow-hidden rounded-[16px] bg-[#ece9e7] lg:grid lg:grid-cols-[0.95fr_1.05fr]">
               <div className="flex items-center justify-center px-5 py-8 sm:px-8 sm:py-10 lg:px-[25px]">
                 <p
-                  className=" text-center text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.38] tracking-[-0.015em] text-[#73635b]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body text-center text-[#73635b] sm:text-[24px] md:text-[26px] lg:text-[20px]"
                 >
                   Instead of competing on volume or discounts,
-                  <span className="text-[#96AB3D]">
+                  <span className="font-semibold text-[#96AB3D]">
                    we build brands that compete on identity, trust and perceived value,
                   </span>
                   
@@ -350,8 +342,7 @@ const LocalBoutiqueBrands = () => {
         <div className="mx-auto container-xl">
           <div className="flex flex-col items-center justify-center px-2 sm:px-4 py-4 sm:py-8 text-center">
             <h2
-              className="text-[26px] sm:text-[32px] md:text-[36px] lg:text-[41px] font-normal leading-[1.15] tracking-[-0.02em] text-[#6e5c56]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-title text-[#6e5c56] sm:text-[32px] md:text-[36px] lg:text-[40px]"
             >
               Ready to turn your product into a premium brand?
             </h2>

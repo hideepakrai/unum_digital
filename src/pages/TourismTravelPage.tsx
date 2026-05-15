@@ -136,9 +136,8 @@ const TourismTravelPage = () => {
                 <div className="mx-auto container-xl rounded-[2px]">
                     <div className="px-4 py-10 sm:px-8 sm:py-12 md:px-10 lg:px-[120px] lg:py-[68px]">
                         <div className="mx-auto  text-center">
-                            <h2
-                                className="text-[26px] sm:text-[31px] md:text-[38px] lg:text-[40px] font-normal leading-[1.2] tracking-[-0.02em] text-[#00353A]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h2
+                                className="text-client-title text-[#00353A] sm:text-[31px] md:text-[38px] lg:text-[40px]"
                             >
                                 The reality of tourism & travel today
                             </h2>
@@ -155,8 +154,7 @@ const TourismTravelPage = () => {
                                 </h3>
 
                                 <p
-                                    className="mt-4 sm:mt-5 text-[22px] sm:text-[26px] md:text-[26px] font-normal leading-[1.28] tracking-[-0.015em] text-[#555555]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body mt-4 text-[#555555] sm:mt-5 sm:text-[22px] md:text-[24px] lg:text-[20px]"
                                 >
                                     Your brand and digital presence may look 'nice', but it doesn't clearly communicate why you're the better choice, fast enough.
                                 </p>
@@ -194,8 +192,7 @@ const TourismTravelPage = () => {
                                 </h3>
 
                                 <p
-                                    className="mt-8 sm:mt-10 md:mt-14 lg:mt-[72px] text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.35] tracking-[-0.015em] text-[#fff]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body mt-8 text-[#fff] sm:mt-10 md:mt-14 lg:mt-[72px] lg:text-[20px]"
                                 >
                                     Tourism growth doesn't come from more content or louder campaigns. It comes from clarity at the moment of decision, when guests are comparing, hesitating and choosing.
                                 </p>
@@ -211,9 +208,8 @@ const TourismTravelPage = () => {
                         </div>
 
                         <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
-                            <h3
-                                className="text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.3] tracking-[-0.015em] text-[#00353A]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h3
+                                className="text-client-heading text-[#00353A] sm:text-[24px] md:text-[26px] lg:text-[26px]"
                             >
                                 Tourism brands grow when they have:
                             </h3>
@@ -232,8 +228,7 @@ const TourismTravelPage = () => {
                             <div className="mt-9 sm:mt-12 lg:mt-[48px] flex items-start gap-3 sm:gap-4">
                                 <QuoteMark />
                                 <p
-                                    className="text-[20px] sm:text-[22px] font-normal leading-[1.35] tracking-[-0.015em] text-[#00353A]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body text-[#00353A] sm:text-[22px] lg:text-[20px]"
                                 >
                                     That's what we build, by aligning brand, digital and content into one coherent tourism system.
                                 </p>
@@ -248,8 +243,7 @@ const TourismTravelPage = () => {
                 <div className="mx-auto container-xl">
                     <div className="text-center">
                         <h2
-                            className="text-[26px] sm:text-[31px] md:text-[36px] lg:text-[40px] font-normal leading-[1.18] tracking-[-0.02em] text-[#00353A]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#00353A] sm:text-[31px] md:text-[36px] lg:text-[40px]"
                         >
                             How this works in real tourism businesses
                         </h2>
@@ -305,8 +299,7 @@ const TourismTravelPage = () => {
                         </h3>
 
                         <p
-                            className="mt-3 text-[22px] sm:text-[26px] md:text-[26px] font-normal leading-[1.33] tracking-[-0.015em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-body mt-3 text-[#555555] sm:text-[26px] md:text-[26px] lg:text-[20px]"
                         >
                             Tourism brands don't lose because they lack effort. They lose because complexity hides their value.
                         </p>
@@ -323,11 +316,10 @@ const TourismTravelPage = () => {
                             {/* LEFT TEXT */}
                             <div className="flex items-center justify-center px-5 py-8 sm:px-8 sm:py-10 lg:px-[25px]">
                                 <p
-                                    className="text-center text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.38] tracking-[-0.015em] text-[#fff]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body text-center text-[#fff] sm:text-[24px] md:text-[26px] lg:text-[20px]"
                                 >
                                     Instead of optimizing isolated elements,
-                                    <span className="text-[#05C4D9] ps-1">
+                                    <span className="font-semibold text-[#05C4D9] ps-1">
                                         we design one clear system where brand, website and messaging work together,
                                     </span>{" "}
                                     across seasons, markets and growth phases.
@@ -340,8 +332,7 @@ const TourismTravelPage = () => {
                         {/* BOTTOM STRIP */}
                         <div className="bg-[#00646E] text-center py-6 rounded-b-[16px] mt-[-6px]">
                             <p
-                                className="text-[18px] px-4 sm:text-[22px] text-[#fff]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                className="text-client-body px-4 sm:text-[22px] text-[#fff]"
                             >
                                 That's how attention turns into trust, and trust into direct bookings.
                             </p>
@@ -357,8 +348,7 @@ const TourismTravelPage = () => {
                 <div className="mx-auto container-xl">
                     <div className="flex flex-col items-center justify-center px-2 sm:px-4 py-4 sm:py-8 text-center">
                         <h2
-                            className=" text-[26px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-normal leading-[1.15] tracking-[-0.02em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#555555] sm:text-[32px] md:text-[36px] lg:text-[40px]"
                         >
                             Ready to build a tourism system that turns attention into bookings?
                         </h2>

@@ -52,7 +52,7 @@ const ContactPage = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background" />
         </div>
 
-        <div className="max-w-7xl mx-auto w-full relative z-10">
+        <div className="max-w-8xl mx-auto w-full relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -102,7 +102,7 @@ const ContactPage = () => {
       </section>
 
       {/* Main Contact Section */}
-      <section className="py-32 px-[5%] max-w-7xl mx-auto">
+      <section className="py-32 px-[5%] max-w-8xl mx-auto">
         <div className="grid lg:grid-cols-[1.2fr_1.8fr] gap-24">
           {/* Left Side: Info Cards */}
           <div className="space-y-16">
@@ -288,7 +288,7 @@ const ContactPage = () => {
       </section>
 
       {/* Map Section - Minimalist */}
-      <section className="px-[5%] max-w-7xl mx-auto pb-32">
+      <section className="px-[5%] max-w-8xl mx-auto pb-32">
         <div className="relative h-[600px] rounded-[60px] overflow-hidden border border-border shadow-2xl group">
           <img 
             src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=2000" 

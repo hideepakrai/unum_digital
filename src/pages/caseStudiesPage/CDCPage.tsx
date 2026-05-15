@@ -222,9 +222,8 @@ const CDCPage = () => {
                 </div>
 
                 <h1
-                  className=" hero-title max-w-[470px] text-[28px] font-normal leading-[1.08] tracking-[-0.02em] text-transparent sm:text-[34px] md:text-[38px] lg:text-[40px]"
+                  className="text-client-title text-transparent bg-clip-text sm:text-[34px] md:text-[38px] lg:text-[40px]"
                   style={{
-                    fontFamily: "Georgia, Times New Roman, serif",
                     backgroundImage:
                       "linear-gradient(90deg, #5E1DE1 0%, #7E2BFF 40%, #B327FF 72%, #FF2D9B 100%)",
                     WebkitBackgroundClip: "text",
@@ -271,8 +270,7 @@ const CDCPage = () => {
             <div className="mt-10 grid gap-y-8 sm:mt-[50px] md:mt-[60px] lg:grid-cols-[1fr_1fr] lg:gap-x-[50px] xl:gap-x-[60px]">
               <div>
                 <p
-                  className="mt-4 text-[20px] font-normal leading-[1.3] tracking-[-0.015em] text-[#0F0F3D] sm:mt-5 sm:text-[24px] md:text-[25px] lg:text-[26px]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-heading leading-[150%] mt-4 text-[#0F0F3D] sm:mt-5 sm:text-[24px] md:text-[25px] lg:text-[26px]"
                 >
                   With Appreciation for the Journey, providing creative direction services for Coaching.com gave me the privilege of working closely with some of the world’s leading thought leaders, academic professors, and business professionals.
                 </p>
@@ -299,13 +297,12 @@ const CDCPage = () => {
           <div className="overflow-hidden rounded-[14px] bg-[#EBE1F7]">
             <div className="grid border-b border-[#e2dbd7] bg-[#F7F0FF] lg:grid-cols-[1.02fr_0.98fr]">
               <div className="px-4 py-8 sm:px-6 sm:py-10 md:px-8 lg:pb-[56px] lg:pe-[24px] lg:ps-[86px] lg:pt-[34px]">
-                <h3 className="text-[20px] font-normal text-[#0F0F3D] sm:text-[22px] md:text-[24px] lg:text-[26px]">
+                <h3 className="text-client-heading text-[#0F0F3D] sm:text-[22px] md:text-[24px] lg:text-[26px]">
                   The Challenge:
                 </h3>
 
                 <p
-                  className="mt-6 text-[20px] font-normal leading-[1.35] tracking-[-0.015em] text-[#0F0F3D] sm:mt-8 sm:text-[22px] md:mt-10 md:text-[24px] lg:mt-[14px] lg:text-[26px]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body mt-6 text-[#0F0F3D] sm:mt-8 sm:text-[19px] md:mt-10 md:text-[20px] lg:mt-[14px] lg:text-[20px]"
                 >
                   Coaching.com operated across three independently developed pillars:
                   education programs, software, and marketplace services. Each pillar
@@ -326,8 +323,7 @@ const CDCPage = () => {
 
             <div className="px-4 py-8 sm:px-6 sm:py-10 md:px-8 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
               <h3
-                className="max-w-[680px] text-[20px] font-normal leading-[1.3] tracking-[-0.015em] text-[#0F0F3D] sm:text-[22px] md:text-[24px] lg:text-[26px]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-body max-w-[680px] text-[#0F0F3D] sm:text-[19px] md:text-[20px] lg:text-[20px]"
               >
                 Rather than enforcing rigid standardization, the approach focused on
                 creating a shared foundation that allowed different products to evolve
@@ -335,8 +331,7 @@ const CDCPage = () => {
               </h3>
 
               <h3
-                className="mt-7 text-[20px] font-normal leading-[1.3] tracking-[-0.015em] text-[#0F0F3D] sm:mt-8 sm:text-[22px] md:text-[24px] lg:text-[26px]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-body mt-7 text-[#0F0F3D] sm:mt-8 sm:text-[19px] md:text-[20px] lg:text-[20px]"
               >
                 This included:
               </h3>
@@ -361,8 +356,7 @@ const CDCPage = () => {
         <div className="mx-auto container-xl">
           <div className="text-center">
             <h2
-              className="text-[24px] font-normal leading-[1.18] tracking-[-0.02em] text-[#0F0F3D] sm:text-[30px] md:text-[34px] lg:text-[40px]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-title text-[#0F0F3D] sm:text-[30px] md:text-[34px] lg:text-[40px]"
             >
               The Result
             </h2>
@@ -384,15 +378,14 @@ const CDCPage = () => {
               <span className="flex h-10 w-10 items-center justify-center rounded-[6px] bg-[#F9F3F3] text-[24px] font-bold text-[#6B28F0]">
                 1
               </span>
-              <h3 className="text-[20px] font-normal tracking-[-0.02em] text-[#1A173F] sm:text-[24px] md:text-[26px]">
+              <h3 className="text-client-heading text-[#1A173F] sm:text-[24px] md:text-[26px]">
                 Platform website
               </h3>
             </div>
 
             <div className="mt-8 grid gap-6 lg:grid-cols-[1.02fr_0.98fr] lg:gap-x-12">
               <p
-                className="text-[22px] leading-[1.28] tracking-[-0.02em] text-[#0F0F3D] sm:text-[24px] md:text-[26px] lg:text-[28px]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-body text-[#0F0F3D] sm:text-[19px] md:text-[20px] lg:text-[20px]"
               >
                 The objective of the Coaching.com website redesign was to establish a
                 unified design system that supports the platform's long-term product
@@ -535,7 +528,7 @@ const CDCPage = () => {
       <section className="w-full px-3 pb-14 pt-8 sm:px-5 sm:pb-16 sm:pt-10 lg:pb-20 lg:pt-16">
         <div className="mx-auto container-xl">
           <div className="mx-auto max-w-[560px] text-center">
-            <p className="text-[15px] font-normal leading-[1.7] tracking-[-0.02em] text-[#1A173F] sm:text-[16px] lg:text-[16px]">
+            <p className="text-client-body text-[#1A173F] sm:text-[19px] md:text-[20px] lg:text-[20px]">
               The focus was on{" "}
               <span className="font-semibold text-[#5E1DE1]">
                 establishing a clear structural logic through custom graphic creations,

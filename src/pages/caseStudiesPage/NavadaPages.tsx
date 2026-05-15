@@ -25,7 +25,6 @@ const Wordmark = ({
     className={`tracking-[0.08em] font-light ${
       dark ? "text-[#181512]" : "text-white"
     } ${className}`}
-    style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
   >
     NAVADA
   </div>
@@ -41,7 +40,7 @@ const FontPreview = ({
   <div>
     <h6 className="text-[14px] text-[#807a75]">{title}</h6>
 
-    <div style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}>
+    <div className="font-sans">
       <h3 className="mt-2 text-[18px] leading-[1.5] text-[#555555] md:text-[22px]">
         ABCDEFGHIJKLMNOPQRSTUVWXYZ
       </h3>
@@ -69,7 +68,7 @@ const NavadaPage = () => {
     <div className="min-h-screen  text-[#221d19]">
       {/* HERO */}
       <section className="w-full px-3 pt-3 sm:px-5 sm:pt-5">
-        <div className="mx-auto container-xl">
+        <div className="mx-auto max-w-8xl mx-auto">
           <section className="overflow-hidden rounded-[18px] bg-[#e8e2dc] shadow-[0_10px_40px_rgba(0,0,0,0.04)] sm:rounded-[22px]">
             <div className="grid lg:grid-cols-[1fr_1fr]">
               <div className="flex min-h-[360px] flex-col px-5 py-5 sm:px-8 sm:py-7 lg:min-h-[500px] lg:px-16 lg:py-6">
@@ -92,10 +91,8 @@ const NavadaPage = () => {
                   </div>
 
                   <h1
-                    className="text-[36px] leading-[1.08] tracking-[-0.03em] text-[#1d1815] sm:text-[44px] lg:text-[48px]"
-                    style={{
-                      fontFamily: "Georgia, 'Times New Roman', serif",
-                    }}
+                    className="text-client-title text-[#1d1815] sm:text-[44px] lg:text-[48px]"
+                    
                   >
                     A brand woven with tradition and heritage.
                   </h1>
@@ -124,7 +121,7 @@ const NavadaPage = () => {
 
       {/* NAME + MEANING */}
       <section className="w-full px-3 py-12 sm:px-5 sm:py-16 lg:py-28">
-        <div className="mx-auto container-xl">
+        <div className="mx-auto max-w-8xl mx-auto">
           <section className="grid gap-10 px-1 md:grid-cols-2 md:items-center lg:px-16">
             <div className="text-[20px] leading-8 text-[#6f6964]">
               <p>
@@ -150,7 +147,7 @@ const NavadaPage = () => {
 
       {/* SHIRT + STORY */}
       <section className="w-full px-3 sm:px-5">
-        <div className="mx-auto container-xl">
+        <div className="mx-auto max-w-8xl mx-auto">
           <section className="grid gap-4 lg:grid-cols-[1fr_1fr]">
             <div className="overflow-hidden rounded-[18px] bg-white shadow-[0_8px_28px_rgba(0,0,0,0.03)] sm:rounded-[20px]">
               <img
@@ -187,11 +184,10 @@ const NavadaPage = () => {
 
       {/* FONTS */}
       <section className="w-full px-3 pt-10 sm:px-5 sm:pt-14 lg:pt-16">
-        <div className="mx-auto container-xl">
+        <div className="mx-auto max-w-8xl mx-auto">
           <section>
             <h2
-              className="text-[34px] leading-none text-[#1e1a17] sm:text-[38px]"
-              style={{ fontFamily: "Georgia, 'Times New Roman', serif" }}
+              className="text-client-heading text-[#1e1a17] sm:text-[38px]"
             >
               Fonts:
             </h2>
@@ -215,7 +211,7 @@ const NavadaPage = () => {
 
       {/* BOTTOM GALLERY */}
       <section className="w-full px-3 pt-24 sm:px-5">
-        <div className="mx-auto container-xl">
+        <div className="mx-auto max-w-8xl mx-auto">
           <section>
             <h6 className="mb-2 text-[14px] text-[#555555]">
               Julie Huebn: 'Samobor after a Photograph', lithograph, 1860 (from
@@ -286,7 +282,7 @@ const NavadaPage = () => {
       </section>
 
       <section className="w-full px-3 sm:px-5">
-        <div className="mx-auto container-xl">
+        <div className="mx-auto max-w-8xl mx-auto">
           <div className="h-12 sm:h-16 lg:h-24" />
         </div>
       </section>

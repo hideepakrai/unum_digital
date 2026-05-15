@@ -5,10 +5,11 @@ const ExpoLifefarandbeyond = () => {
   const [playVideo, setPlayVideo] = useState(false);
 
   return (
-    <div className="min-h-screen bg-transparent p-3 sm:p-4 md:p-6 lg:p-8 flex flex-col gap-4 font-inter">
+    <div className="min-h-screen bg-transparent flex flex-col font-inter p-4 md:p-6">
+      <div className="max-w-8xl mx-auto w-full space-y-6">
 
       {/* Top Section */}
-      <section className="w-full max-w-[1200px] mx-auto bg-[#242b33] rounded-2xl overflow-hidden flex flex-col md:flex-row shadow-lg">
+      <section className="w-full bg-[#242b33] rounded-[10px] overflow-hidden flex flex-col md:flex-row shadow-lg">
 
         {/* Left Content */}
         <div className="flex-1 p-6 sm:p-8 md:p-12 lg:p-16 xl:p-20 flex flex-col justify-start relative py-16">
@@ -22,8 +23,8 @@ const ExpoLifefarandbeyond = () => {
           </div>
 
           <h2
-            className="text-[25px] md:text-[35px] leading-[120%] text-white pt-20 md:pe-14 pe-4 "
-            style={{ fontFamily: "'Optima', sans-serif" }}
+            className="text-[25px] md:text-[40px] font-[600] leading-[120%] text-white pt-20 md:pe-24 pe-4 "
+            style={{ fontFamily: "Inter, sans-serif" }}
           >
             The packaging served as
            
@@ -50,7 +51,7 @@ const ExpoLifefarandbeyond = () => {
       </section>
 
       {/* Bottom Section */}
-      <section className="w-full max-w-[1200px] mx-auto bg-[#242b33] rounded-2xl shadow-lg flex flex-col p-4 sm:p-6 md:p-8 lg:p-10 mb-6 md:mb-10">
+      <section className="w-full bg-[#242b33] rounded-[10px] shadow-lg flex flex-col p-4 sm:p-6 md:p-8 lg:p-10">
 
         {/* Video Section */}
         <div
@@ -102,8 +103,8 @@ const ExpoLifefarandbeyond = () => {
         {/* Bottom Text */}
         <div className="mt-4 sm:mt-6 flex flex-col gap-1 md:px-2">
           <h3
-            className="text-white text-[1.2rem] sm:text-[1.35rem] md:text-xl lg:text-2xl font-normal tracking-wide"
-            style={{ fontFamily: "'Optima', sans-serif" }}
+            className="text-white text-[1.2rem] sm:text-[1.35rem] md:text-[30px] lg:text-[30px] font-[600] tracking-wide"
+            style={{ fontFamily: "Inter, sans-serif" }}
           >
             EXO - Life and Beyond
           </h3>
@@ -114,7 +115,7 @@ const ExpoLifefarandbeyond = () => {
         </div>
 
       </section>
-
+      </div>
     </div>
   );
 };

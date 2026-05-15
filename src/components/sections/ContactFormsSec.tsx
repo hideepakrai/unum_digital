@@ -131,7 +131,7 @@ const ContactFormsSec: React.FC = () => {
 
     return (
         <section id="lets-talk" className="w-full bg-[#161E23] scroll-mt-32 px-4 py-16 md:px-10 md:py-24">
-            <div className="mx-auto max-w-7xl">
+            <div className="mx-auto max-w-8xl">
                 <h2 className="mb-12 text-center text-[32px] font-light text-white md:mb-16 md:text-[40px]">
                     Let's bring your stories to life!
                 </h2>

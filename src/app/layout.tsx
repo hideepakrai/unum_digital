@@ -10,9 +10,10 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 getJwtSecret()
 
 export const metadata: Metadata = {
-  title: 'Hrescic',
-  description: 'Creative and strategy agency',
+  title: 'Unum Digital | Creative Direction & Strategy Agency',
+  description: 'Unum Digital provides world-class creative direction, strategic branding, high-performance web experiences, and cinematic video production for brands that need systems and scale.',
 }
+
 
 export default function RootLayout({
   children,

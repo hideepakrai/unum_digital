@@ -296,9 +296,9 @@ const Poliderma = () => {
     return (
         <div className="w-full">
             {/* HERO SECTION */}
-            <section className="w-full px-3 py-3 sm:px-5 sm:py-5">
-                <div className="mx-auto container-xl">
-                    <div className="grid overflow-hidden rounded-[18px] bg-[#F5F1EF] lg:grid-cols-[0.95fr_1.05fr]">
+            <section className="w-full px-4 md:px-6 py-6">
+                <div className="mx-auto max-w-8xl">
+                    <div className="grid overflow-hidden rounded-[10px] bg-[#F5F1EF] lg:grid-cols-[0.95fr_1.05fr]">
                         {/* LEFT CONTENT */}
                         <div className="order-2 flex items-center lg:order-1">
                             <div className="w-full px-4 py-8 sm:px-8 sm:py-10 lg:ps-[40px] lg:py-[42px]">
@@ -312,8 +312,7 @@ const Poliderma = () => {
 
                                 <div>
                                     <h1
-                                        className="text-[30px] sm:text-[38px] md:text-[40px] lg:text-[38px] font-normal leading-[1.08] tracking-normal text-[#685956]"
-                                        style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                        className="text-client-title text-[#685956] sm:text-[38px] md:text-[40px] lg:text-[38px]"
                                     >
                                         <span className="text-[#DD9842]">
                                            Building a scalable medical & cosmetic ecosystem across three brands,
@@ -366,13 +365,12 @@ const Poliderma = () => {
 
 
             {/* REALITY SECTION */}
-            <section className="w-full px-3 pb-6 pt-0 sm:px-5 sm:pb-8 lg:pb-10">
-                <div className="mx-auto container-xl rounded-[2px]">
+            <section className="w-full px-4 md:px-6 pb-6 pt-0">
+                <div className="mx-auto max-w-8xl">
                     <div className="px-4 py-10 sm:px-8 sm:py-12 md:px-10 lg:px-[120px] lg:py-[68px]">
                         <div className="mx-auto  text-center md:max-w-[84%]">
-                            <h2
-                                className="text-[26px] sm:text-[31px] md:text-[38px] lg:text-[40px] font-normal leading-[1.2] tracking-[-0.02em] text-[#00353A]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h2
+                                className="text-client-title text-[#00353A] sm:text-[31px] md:text-[38px] lg:text-[40px]"
                             >
                              This project was not about marketing execution.
                             </h2>
@@ -391,7 +389,7 @@ const Poliderma = () => {
 
             {/* WHAT DRIVES GROWTH */}
             <section className="w-full px-3 pb-6 pt-0 sm:px-5 sm:pb-8 lg:pb-10">
-                <div className="mx-auto container-xl">
+                <div className="mx-auto max-w-8xl">
                     <div className="overflow-hidden rounded-[14px] bg-[#EDE8E6]">
                         <div className="grid border-b border-[#e2dbd7] bg-[#F5F1EF] lg:grid-cols-[1.02fr_0.98fr]">
                             <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:ps-[86px] lg:pe-[24px] lg:pb-[56px] lg:pt-[34px]">
@@ -400,8 +398,7 @@ const Poliderma = () => {
                                 </h3>
 
                                 <p
-                                    className="mt-8 sm:mt-10 md:mt-14 lg:mt-[72px] text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.35] tracking-[-0.015em] text-[#685956]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body mt-8 text-[#685956] sm:mt-10 md:mt-14 lg:mt-[72px] lg:text-[20px]"
                                 >
                                   As the ecosystem grew, structural weaknesses became visible. What initially appeared as a need for marketing support revealed a deeper challenge: rapid expansion without a shared strategic backbone.
                                 </p>
@@ -417,9 +414,8 @@ const Poliderma = () => {
                         </div>
 
                         <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
-                            <h3
-                                className="text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.3] tracking-[-0.015em] text-[#685956]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h3
+                                className="text-client-heading text-[#685956] sm:text-[24px] md:text-[26px] lg:text-[26px]"
                             >
                                Key issues included:
                             </h3>
@@ -438,8 +434,7 @@ const Poliderma = () => {
                             <div className="mt-9 sm:mt-12 lg:mt-[48px] flex items-start gap-3 sm:gap-4">
                                 <QuoteMark />
                                 <p
-                                    className="text-[20px] sm:text-[22px] font-normal leading-[1.35] tracking-[-0.015em] text-[#00353A]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body text-[#00353A] sm:text-[22px] lg:text-[20px]"
                                 >
                                  This was not three separate projects. The real task was to build one coherent brand ecosystem around a single medical authority, while simultaneously scaling traffic, conversions, and product and service expansion.
                                 </p>
@@ -450,11 +445,10 @@ const Poliderma = () => {
             </section>
 
             <section className="w-full px-3 pb-6 pt-0 sm:px-5 sm:pb-8 lg:py-14">
-                <div className="mx-auto container-xl">
+                <div className="mx-auto max-w-8xl">
                     <div className="text-center">
                         <h2
-                            className="text-[26px] sm:text-[31px] md:text-[36px] lg:text-[40px] font-normal leading-[1.18] tracking-[-0.02em] text-[#685956]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#685956] sm:text-[31px] md:text-[36px] lg:text-[40px]"
                         >
                           Our approach and delivery
                         </h2>
@@ -507,11 +501,10 @@ const Poliderma = () => {
 
 
 <section className="w-full px-3 pb-10 pt-2 sm:px-5 sm:pb-24 lg:py-20">
-  <div className="mx-auto container-xl max-w-[1240px]">
+  <div className="mx-auto max-w-8xl max-w-[1240px]">
     <div className="text-center">
       <h2
-        className="text-[28px] sm:text-[34px] md:text-[40px] font-normal leading-[1.15] tracking-[-0.02em] text-[#685956]"
-        style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+        className="text-client-title text-[#685956] sm:text-[34px] md:text-[40px] lg:text-[40px]"
       >
         The results & outcome
       </h2>
@@ -539,8 +532,7 @@ const Poliderma = () => {
 
           <div className="flex h-[92px] lg:h-[96px] flex-col justify-center rounded-[18px] bg-transparent px-2">
             <h3
-              className="text-[30px] lg:text-[34px] font-normal leading-none text-[#d88d3d]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-stat text-[#d88d3d] sm:text-[30px] lg:text-[34px]"
             >
               100%
             </h3>
@@ -610,8 +602,7 @@ const Poliderma = () => {
           <div className="flex h-[200px] lg:h-[206px] flex-col justify-between rounded-[18px] bg-transparent py-3">
             <div className="border-l border-[#d9ccc3] pl-4">
               <h3
-                className="text-[34px] lg:text-[38px] font-normal leading-none text-[#d88d3d]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-stat text-[#d88d3d] sm:text-[34px] lg:text-[38px]"
               >
                 15+
               </h3>
@@ -622,8 +613,7 @@ const Poliderma = () => {
 
             <div className="border-l border-[#d9ccc3] pl-4">
               <h3
-                className="text-[34px] lg:text-[38px] font-normal leading-none text-[#d88d3d]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-stat text-[#d88d3d] sm:text-[34px] lg:text-[38px]"
               >
                 6X
               </h3>
@@ -657,8 +647,7 @@ const Poliderma = () => {
 
         <div className="rounded-[16px] bg-transparent px-2 py-3 flex flex-col justify-center">
           <h3
-            className="text-[34px] font-normal leading-none text-[#d88d3d]"
-            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+            className="text-client-stat text-[#d88d3d] sm:text-[34px]"
           >
             100%
           </h3>
@@ -722,8 +711,7 @@ const Poliderma = () => {
         <div className="rounded-[16px] bg-transparent py-4">
           <div className="border-l border-[#d9ccc3] pl-4">
             <h3
-              className="text-[32px] font-normal leading-none text-[#d88d3d]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-stat text-[#d88d3d] sm:text-[32px]"
             >
               15+
             </h3>
@@ -734,8 +722,7 @@ const Poliderma = () => {
 
           <div className="mt-5 border-l border-[#d9ccc3] pl-4">
             <h3
-              className="text-[32px] font-normal leading-none text-[#d88d3d]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-stat text-[#d88d3d] sm:text-[32px]"
             >
               6X
             </h3>
@@ -760,11 +747,10 @@ const Poliderma = () => {
 
             {/* FINAL CTA */}
             <section className="w-full px-3 pb-[54px] pt-6 sm:px-5 sm:pb-[80px] lg:pb-[90px]">
-                <div className="mx-auto container-xl">
+                <div className="mx-auto max-w-8xl">
                     <div className="flex flex-col items-center justify-center px-2 sm:px-4 py-4 sm:py-8 text-center">
                         <h2
-                            className=" text-[26px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-normal leading-[1.15] tracking-[-0.02em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#555555] sm:text-[32px] md:text-[36px] lg:text-[40px]"
                         >
                            Marketing Excellence That Works On Your Terms
                         </h2>

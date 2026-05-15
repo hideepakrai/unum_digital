@@ -305,8 +305,7 @@ export default function Castania() {
                     <div className="px-4 py-10 sm:px-8 sm:py-12 md:px-10 lg:px-[120px] lg:py-[90px]">
                         <div className="mx-auto text-center md:max-w-[65%]">
                             <h2
-                                className="text-[26px] sm:text-[31px] md:text-[38px] lg:text-[40px] font-normal leading-[1.2] tracking-[-0.02em] text-[#555555]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                className="text-client-title text-[#555555] sm:text-[31px] md:text-[38px] lg:text-[40px]"
                             >
                                 Castania was built from zero to a premium honey brand.
                             </h2>
@@ -337,8 +336,7 @@ export default function Castania() {
                                 </h3>
 
                                 <p
-                                    className="mt-8 sm:mt-10 md:mt-14 lg:mt-[72px] text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.35] tracking-[-0.015em] text-[#fff]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body mt-8 text-[#fff] sm:mt-10 md:mt-14 lg:mt-[72px] lg:text-[20px]"
                                 >
                                     Castania started with an excellent product: high-quality honey
                                     and natural derivatives. What it lacked was everything else
@@ -356,9 +354,8 @@ export default function Castania() {
                         </div>
 
                         <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
-                            <h3
-                                className="text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.3] tracking-[-0.015em] text-[#000000]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h3
+                                className="text-client-heading text-[#000000] sm:text-[24px] md:text-[26px] lg:text-[26px]"
                             >
                                 Like many small producers, Castania was trapped in a commodity
                                 position:
@@ -378,8 +375,7 @@ export default function Castania() {
                             <div className="mt-9 sm:mt-12 lg:mt-[48px] flex items-start gap-3 sm:gap-4">
                                 <QuoteMark />
                                 <p
-                                    className="text-[20px] sm:text-[22px] font-normal leading-[1.35] tracking-[-0.015em] text-[#555555]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body text-[#555555] sm:text-[22px] lg:text-[20px]"
                                 >
                                     Without a clear identity, positioning, packaging, or sales
                                     strategy, scaling beyond local sales or basic distribution was
@@ -396,8 +392,7 @@ export default function Castania() {
                 <div className="mx-auto container-xl">
                     <div className="text-center">
                         <h2
-                            className="text-[26px] sm:text-[31px] md:text-[36px] lg:text-[40px] font-normal leading-[1.18] tracking-[-0.02em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#555555] sm:text-[31px] md:text-[36px] lg:text-[40px]"
                         >
                             The Goals of the Collaboration
                         </h2>
@@ -446,8 +441,7 @@ export default function Castania() {
                         </h3>
 
                         <p
-                            className="mt-3 text-[20px] sm:text-[24px] font-normal leading-[1.34] tracking-[-0.015em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-body mt-3 text-[#555555] sm:text-[24px] lg:text-[20px]"
                         >
                             We designed Castania from the ground up as a complete brand
                             system. Before any visuals, packaging, or marketing execution, we
@@ -466,8 +460,7 @@ export default function Castania() {
                         </div>
 
                         <p
-                            className="mt-7 text-[16px] sm:text-[18px] leading-[1.65] text-[#6A6A6A]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-body mt-7 text-[#6A6A6A] sm:text-[18px] lg:text-[20px]"
                         >
                             Every decision that followed, from naming to packaging to
                             e-commerce, was built to reinforce the same story, values, and
@@ -536,8 +529,7 @@ export default function Castania() {
                 <div className="mx-auto container-xl max-w-[1240px]">
                     <div className="text-center">
                         <h2
-                            className="text-[28px] sm:text-[34px] md:text-[40px] font-normal leading-[1.15] tracking-[-0.02em] text-[#5A5A5A]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#5A5A5A] sm:text-[34px] md:text-[40px] lg:text-[40px]"
                         >
                             Partnership Model &amp; Results
                         </h2>
@@ -603,9 +595,8 @@ export default function Castania() {
 
                         {/* stat */}
                         <div className="col-span-2 row-span-1 rounded-[16px]  px-5 py-4 flex flex-col justify-center">
-                            <h3
-                                className="text-[48px] font-normal leading-[0.95] text-[#8DA117]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h3
+                                className="text-client-stat text-[#8DA117] sm:text-[48px]"
                             >
                                 +60%
                             </h3>
@@ -693,9 +684,8 @@ export default function Castania() {
 
                         <div className="grid grid-cols-[1fr_110px] gap-3">
                             <div className="rounded-[16px] bg-[#F5F3EA] px-5 py-5 flex flex-col justify-center">
-                                <h3
-                                    className="text-[42px] font-normal leading-[0.95] text-[#8DA117]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                 <h3
+                                    className="text-client-stat text-[#8DA117] sm:text-[42px]"
                                 >
                                     +60%
                                 </h3>
@@ -756,8 +746,7 @@ export default function Castania() {
                 <div className="mx-auto container-xl">
                     <div className="flex flex-col items-center justify-center px-2 sm:px-4 py-4 sm:py-8 text-center">
                         <h2
-                            className=" text-[26px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-normal leading-[1.15] tracking-[-0.02em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#555555] sm:text-[32px] md:text-[36px] lg:text-[40px]"
                         >
                             Marketing Excellence That Works On Your Terms
                         </h2>

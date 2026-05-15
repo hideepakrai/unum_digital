@@ -104,7 +104,7 @@ const EducationELearningPage = () => {
                   <h1
                     className="pe-4  text-[28px] sm:text-[34px] md:text-[40px] lg:text-[38px] font-[400] leading-[1.08] tracking-[-0.03em] text-transparent bg-clip-text"
                     style={{
-                      fontFamily: "Optima, Georgia, Times New Roman, serif",
+                      fontFamily: "Inter, sans-serif",
                       backgroundImage: "linear-gradient(90deg, #5E1DE1 0%, #FF1DA4 100%)",
                     }}>
                     Education & e-learning brands don't scale by adding more products. They scale by creating clarity.
@@ -148,8 +148,7 @@ const EducationELearningPage = () => {
           <div className="px-4 py-10 sm:px-8 sm:py-12 md:px-10 lg:px-[120px] lg:py-[68px]">
             <div className="mx-auto  text-center">
               <h2
-                className="text-[26px] sm:text-[31px] md:text-[38px] lg:text-[40px] font-normal leading-[1.2] tracking-[-0.02em] text-[#0F0F3D]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-title text-[#0F0F3D] sm:text-[31px] md:text-[38px] lg:text-[40px]"
               >
                 The reality of education & e-learning today
               </h2>
@@ -166,8 +165,7 @@ const EducationELearningPage = () => {
                 </h3>
 
                 <p
-                  className="mt-4 sm:mt-5 text-[22px] sm:text-[26px] md:text-[26px] font-normal leading-[1.28] tracking-[-0.015em] text-[#0F0F3D]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body mt-4 text-[#0F0F3D] sm:mt-5 sm:text-[22px] md:text-[24px] lg:text-[20px]"
                 >
                   Programs, platforms and funnels evolve separately, creating fragmented experiences for learners, teams and partners.
                 </p>
@@ -205,8 +203,7 @@ const EducationELearningPage = () => {
                 </h3>
 
                 <p
-                  className="mt-8 sm:mt-10 md:mt-14 lg:mt-[72px] text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.35] tracking-[-0.015em] text-[#0F0F3D]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body mt-8 text-[#0F0F3D] sm:mt-10 md:mt-14 lg:mt-[72px] lg:text-[20px]"
                 >
                   Education growth doesn't come from more courses, more tools or more features.  It comes from clarity across the entire learning ecosystem — from first touchpoint to program delivery.
                 </p>
@@ -223,8 +220,7 @@ const EducationELearningPage = () => {
 
             <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
               <h3
-                className="text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.3] tracking-[-0.015em] text-[#0F0F3D]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-heading text-[#0F0F3D] sm:text-[22px] md:text-[24px] lg:text-[26px]"
               >
                 Education and e-learning brands grow when they have:
               </h3>
@@ -243,8 +239,7 @@ const EducationELearningPage = () => {
               <div className="mt-9 sm:mt-12 lg:mt-[48px] flex items-start gap-3 sm:gap-4">
                 <QuoteMark />
                 <p
-                  className="text-[20px] sm:text-[22px] font-normal leading-[1.35] tracking-[-0.015em] text-[#0F0F3D]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body text-[#0F0F3D] sm:text-[19px] md:text-[22px] lg:text-[20px]"
                 >
                   That's what we build by aligning brand, UX, content and structure into one scalable education system.
                 </p>
@@ -259,8 +254,7 @@ const EducationELearningPage = () => {
         <div className="mx-auto container-xl">
           <div className="text-center">
             <h2
-              className="text-[26px] sm:text-[31px] md:text-[36px] lg:text-[40px] font-normal leading-[1.18] tracking-[-0.02em] text-[#0F0F3D]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-title text-[#0F0F3D] sm:text-[30px] md:text-[34px] lg:text-[40px]"
             >
               How this works in real education ecosystems:
             </h2>
@@ -315,8 +309,7 @@ const EducationELearningPage = () => {
             </h3>
 
             <p
-              className="mt-3 text-[22px] sm:text-[26px] md:text-[28px] font-normal leading-[1.33] tracking-[-0.015em] text-[#0F0F3D]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-body mt-3 text-[#0F0F3D] sm:text-[19px] md:text-[26px] lg:text-[20px]"
             >
               Education businesses don't struggle because they lack expertise. They struggle because complexity hides value.
             </p>
@@ -328,8 +321,7 @@ const EducationELearningPage = () => {
               {/* LEFT TEXT */}
               <div className="flex items-center justify-center px-5 py-8 sm:px-8 sm:py-10 lg:px-[25px]">
                 <p
-                  className="text-center text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.38] tracking-[-0.015em] text-[#0F0F3D]"
-                  style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                  className="text-client-body text-center text-[#0F0F3D] sm:text-[19px] md:text-[24px] lg:text-[20px]"
                 >
                   Instead of enforcing rigid standardization,
                   <span className="text-[#CE1DB7] ps-1">
@@ -376,8 +368,7 @@ const EducationELearningPage = () => {
             {/* BOTTOM STRIP */}
             <div className="bg-[#F3F3F3] text-center py-6 rounded-b-[16px] mt-[-6px]">
               <p
-                className="text-[20px] sm:text-[22px] text-[#0F0F3D]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-body text-[#0F0F3D]"
               >
                 That's how scale stays sustainable.
               </p>
@@ -393,8 +384,7 @@ const EducationELearningPage = () => {
         <div className="mx-auto container-xl">
           <div className="flex flex-col items-center justify-center px-2 sm:px-4 py-4 sm:py-8 text-center">
             <h2
-              className=" text-[26px] sm:text-[32px] md:text-[36px] lg:text-[41px] font-normal leading-[1.15] tracking-[-0.02em] text-[#0F0F3D]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-title text-[#0F0F3D] sm:text-[30px] md:text-[34px] lg:text-[40px]"
             >
               Ready to scale your education business without losing clarity?
             </h2>

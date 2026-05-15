@@ -10,9 +10,8 @@ const bladeMark = (
 
 const PlayIcon = ({ dark = false }: { dark?: boolean }) => (
   <span
-    className={`inline-flex h-10 w-10 items-center justify-center rounded-full sm:h-11 sm:w-11 ${
-      dark ? "bg-black/55 text-white" : "bg-white/20 text-white"
-    } backdrop-blur-sm`}
+    className={`inline-flex h-10 w-10 items-center justify-center rounded-full sm:h-11 sm:w-11 ${dark ? "bg-black/55 text-white" : "bg-white/20 text-white"
+      } backdrop-blur-sm`}
   >
     <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
       <path d="M8 5.14v13.72c0 .8.87 1.3 1.56.89l10.58-6.86a1.03 1.03 0 0 0 0-1.78L9.56 4.25A1.04 1.04 0 0 0 8 5.14Z" />
@@ -25,7 +24,7 @@ const KarloBanPage = () => {
     <div className="overflow-x-hidden bg-[#f4f4f2] text-[#2f2a28] px-4 py-8 md:px-0">
       {/* HERO */}
       <section
-        className="container-xl  overflow-hidden rounded-[18px] shadow-[0_20px_60px_rgba(32,12,7,0.16)] sm:rounded-[20px] lg:rounded-[24px]"
+        className="max-w-8xl mx-auto  overflow-hidden rounded-[18px] shadow-[0_20px_60px_rgba(32,12,7,0.16)] sm:rounded-[20px] lg:rounded-[24px]"
         style={{
           backgroundImage: "url('/assets/Image/karoban-hero.png')",
           backgroundRepeat: "no-repeat",
@@ -49,8 +48,7 @@ const KarloBanPage = () => {
 
             <div className="mt-auto max-w-[640px] pb-2 sm:pb-4">
               <h1
-                className="text-[30px] leading-[1.06] tracking-[-0.03em] text-white sm:text-[36px] md:text-[42px] lg:text-[50px]"
-                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                className="text-client-title text-white sm:text-[36px] md:text-[42px] lg:text-[50px]"
               >
                 When Craft Meets Collaboration
               </h1>
@@ -82,42 +80,48 @@ const KarloBanPage = () => {
       </section>
 
       {/* STORY / INTRO */}
-      <section className="mx-auto grid max-w-[1280px] gap-8 px-4 py-12 sm:px-6 md:grid-cols-[1.05fr_1.15fr] md:items-center lg:gap-12 lg:px-8 lg:py-20">
-        <div className="max-w-[520px]">
-          <p className="text-[17px] leading-[1.55] text-[#6b6866] sm:text-[18px] md:text-[20px]">
-            From the very beginning, this project was built on alignment,
-            between design, story, and structure. Working alongside Karlo Ban, a
-            master bladesmith from the village of Jelenjak in Zagorje, we set
-            out to create a brand that could stand shoulder to shoulder with the
-            exceptional quality of his handmade knives.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-[1.35fr_0.95fr] sm:md:gap-5">
-          <div className="overflow-hidden rounded-[18px] shadow-[0_16px_36px_rgba(0,0,0,0.08)] sm:rounded-[22px]">
-            <img
-              src="/assets/Image/karo-ban-img.png"
-              alt="Karlo Ban working"
-              className="h-full w-full object-cover"
-            />
+      <section className="mx-auto max-w-8xl px-4 py-12 lg:py-16">
+        <div className="grid gap-12 lg:grid-cols-2 lg:items-start lg:gap-16">
+          {/* Left Content (50%) */}
+          <div className="max-w-[540px] flex flex-col justify-center">
+            <p className="text-[17px] leading-[1.75] text-[#6b6866] pt-16 sm:text-[19px] md:text-[21px]">
+              From the very beginning, this project was built on alignment,
+              between design, story, and structure. Working alongside Karlo Ban, a
+              master bladesmith from the village of Jelenjak in Zagorje, we set
+              out to create a brand that could stand shoulder to shoulder with the
+              exceptional quality of his handmade knives.
+            </p>
           </div>
-          <div className="overflow-hidden rounded-[18px] shadow-[0_16px_36px_rgba(0,0,0,0.08)] sm:rounded-[22px]">
-            <img
-              src="/assets/Image/karo-ban-img1.png"
-              alt="Knife detail"
-              className="h-full w-full object-cover"
-            />
+
+          {/* Right Images (50%) */}
+          <div className="flex items-center gap-4 sm:gap-6 lg:gap-8">
+            {/* Large Image */}
+            <div className="w-[62%] overflow-hidden rounded-[24px]  sm:rounded-[32px] aspect-[4/4.5]">
+              <img
+                src="/assets/Image/karo-ban-img.png"
+                alt="Karlo Ban working"
+                className=" w-full object-cover"
+              />
+            </div>
+
+            {/* Small Image */}
+            <div className="w-[38%] overflow-hidden rounded-[20px] sm:rounded-[24px] aspect-[4/5] lg:translate-y-6">
+              <img
+                src="/assets/Image/karo-ban-img1.png"
+                alt="Knife detail"
+                className=" w-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
 
       {/* THANKS CARD */}
-      <section className="container-xl pb-12 sm:pb-14 lg:pb-16">
+      <section className="max-w-8xl mx-auto pb-12 sm:pb-14 lg:pb-16">
         <div className="rounded-[18px] bg-[#efefed] px-4 py-8 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] sm:rounded-[22px] sm:px-8 sm:py-10 md:px-12 md:py-12 lg:px-16 lg:py-14">
           <p
-            className="mx-auto max-w-[740px] text-[19px] leading-[1.45] text-[#5c5856] sm:text-[22px] md:text-[24px] lg:text-[26px]"
-            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
-          >
+            className="text-client-body mx-auto max-w-[740px] text-[#555555] sm:text-[22px] md:text-[24px] lg:text-[26px]"
+          style={{fontWeight: "600"}}> 
             Many thanks to Karlo for the trust, openness, and clarity of his
             craft, and to all creative partners that worked on the project:
             HrvojeFX, Doku Films, and Hrescic Agency for their professionalism
@@ -127,13 +131,12 @@ const KarloBanPage = () => {
       </section>
 
       {/* RESULTS TITLE */}
-     
+
 
       {/* RESULTS GRID */}
-      <section className="container-xl pb-12 sm:pb-14 lg:pb-16">
-         <h2
-          className="text-[32px] text-[#504a46] sm:text-[36px] md:text-[40px] lg:text-[44px] text-center pt-10 pb-6"
-          style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+      <section className="max-w-8xl mx-auto pb-12 sm:pb-14 lg:pb-16">
+        <h2
+          className="text-client-title text-[#504a46] sm:text-[36px] md:text-[40px] lg:text-[44px] text-center pt-10 pb-6"
         >
           Results
         </h2>
@@ -169,8 +172,7 @@ const KarloBanPage = () => {
           {/* Branding text */}
           <div className="flex min-h-[120px] items-center justify-center rounded-[18px] bg-transparent px-4 py-6 text-center md:col-span-3 lg:row-span-1">
             <p
-              className="text-[20px] leading-[1.35] text-[#625d59] sm:text-[24px] lg:text-[26px]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-heading text-[#625d59] sm:text-[24px] lg:text-[20px]"
             >
               Branding / Web UX &amp; UI
             </p>
@@ -216,8 +218,7 @@ const KarloBanPage = () => {
           {/* Bottom right text + image */}
           <div className="rounded-[18px] bg-transparent px-0 text-center md:col-span-6 lg:col-span-6 lg:row-span-2">
             <p
-              className="mb-5 mt-1 px-2 text-[20px] leading-[1.35] text-[#625d59] sm:mt-2 sm:text-[24px] lg:mb-8 lg:mt-4 lg:text-[26px]"
-              style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+              className="text-client-heading mb-5 mt-1 px-2 text-[#625d59] sm:mt-2 sm:text-[24px] lg:mb-8 lg:mt-4 lg:text-[20px]"
             >
               AI Supported Video Post-production.
             </p>

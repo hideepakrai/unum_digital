@@ -291,8 +291,7 @@ const MyRent = () => {
 
 
                                     <h1
-                                        className="hero-title text-[30px] sm:text-[38px] md:text-[40px] lg:text-[38px] font-normal leading-[1.08] tracking-normal text-white"
-
+                                        className="text-client-title text-white sm:text-[38px] md:text-[40px] lg:text-[40px]"
                                     >
                                         <span className="text-[#49E000]">
                                             Building Clarity at Scale:
@@ -356,8 +355,7 @@ const MyRent = () => {
                             >
                                 <div className="lg:min-h-[112px]">
                                     <h3
-                                        className="text-[42px] sm:text-[48px] lg:text-[50px] font-normal leading-[0.95] text-[#32B100]"
-
+                                        className="text-client-stat text-[#32B100] sm:text-[48px] lg:text-[50px]"
                                     >
                                         {item.value}
                                     </h3>
@@ -385,9 +383,8 @@ const MyRent = () => {
                 <div className="mx-auto container-xl rounded-[2px]">
                     <div className="px-4 py-10 sm:px-8 sm:py-12 md:px-10 lg:px-[120px] lg:py-[68px]">
                         <div className="mx-auto  text-center md:max-w-[84%]">
-                            <h2
-                                className="text-[26px] sm:text-[31px] md:text-[38px] lg:text-[40px] font-normal leading-[1.2] tracking-[-0.02em] text-[#00353A]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h2
+                                className="text-client-intro text-[#00353A] sm:text-[31px] md:text-[38px] lg:text-[30px]"
                             >
                                 MyRent is a property management platform serving private renters and professional agencies across multiple markets.
                             </h2>
@@ -415,8 +412,7 @@ const MyRent = () => {
                                 </h3>
 
                                 <p
-                                    className="mt-8 sm:mt-10 md:mt-14 lg:mt-[72px] text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.35] tracking-[-0.015em] text-[#fff]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body mt-8 text-[#fff] sm:mt-10 md:mt-14 lg:mt-[72px] lg:text-[20px]"
                                 >
                                     MyRent operates within a highly complex ecosystem that includes multiple user types, a wide range of interconnected services, diverse market contexts, and a strong requirement for both scalability and operational speed.
                                 </p>
@@ -432,9 +428,8 @@ const MyRent = () => {
                         </div>
 
                         <div className="px-4 py-8 sm:px-8 sm:py-10 md:px-10 lg:px-[86px] lg:pb-[50px] lg:pt-[60px]">
-                            <h3
-                                className="text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.3] tracking-[-0.015em] text-[#00353A]"
-                                style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                             <h3
+                                className="text-client-body text-[#00353A] sm:text-[24px] md:text-[26px] lg:text-[20px]"
                             >
                                 As the platform evolved, several structural issues emerged:
                             </h3>
@@ -453,8 +448,7 @@ const MyRent = () => {
                             <div className="mt-9 sm:mt-12 lg:mt-[48px] flex items-start gap-3 sm:gap-4">
                                 <QuoteMark />
                                 <p
-                                    className="text-[20px] sm:text-[22px] font-normal leading-[1.35] tracking-[-0.015em] text-[#00353A]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body text-[#00353A] sm:text-[22px] md:text-[24px] lg:text-[20px]"
                                 >
                                     The challenge was not building more. It was creating clarity within complexity.
                                 </p>
@@ -468,8 +462,7 @@ const MyRent = () => {
                 <div className="mx-auto container-xl">
                     <div className="text-center">
                         <h2
-                            className="text-[26px] sm:text-[31px] md:text-[36px] lg:text-[40px] font-normal leading-[1.18] tracking-[-0.02em] text-[#00353A]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#00353A] sm:text-[31px] md:text-[36px] lg:text-[40px]"
                         >
                             How this works in real tourism businesses
                         </h2>
@@ -530,8 +523,7 @@ const MyRent = () => {
                         </h3>
 
                         <p
-                            className="mt-3 text-[22px] sm:text-[26px] md:text-[26px] font-normal leading-[1.33] tracking-[-0.015em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-body mt-3 text-[#555555] sm:text-[26px] md:text-[26px] lg:text-[20px]"
                         >
                             We operated as an external strategic and operational partner, focused on clarity, structure, and scalability. Our role included:
                         </p>
@@ -570,11 +562,10 @@ const MyRent = () => {
                             {/* LEFT TEXT */}
                             <div className="flex items-center justify-center px-5 py-8 sm:px-8 sm:py-10 lg:px-[25px]">
                                 <p
-                                    className="text-center text-[22px] sm:text-[24px] md:text-[26px] font-normal leading-[1.38] tracking-[-0.015em] text-[#fff]"
-                                    style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                    className="text-client-body text-center text-[#fff] sm:text-[24px] md:text-[26px] lg:text-[20px]"
                                 >
                                     Rather than optimizing isolated elements, we designed
-                                    <span className="text-[#05C4D9] ps-2">
+                                    <span className="font-semibold text-[#05C4D9] ps-2">
                                         a system where all components reinforce one another.
                                     </span>{" "}
 
@@ -597,8 +588,7 @@ const MyRent = () => {
                 <div className="mx-auto container-xl">
                     <div className="mx-auto max-w-[760px] text-center">
                         <h2
-                            className="text-[28px] sm:text-[34px] md:text-[40px] font-normal leading-[1.15] tracking-[-0.02em] text-[#003C42]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#003C42] sm:text-[34px] md:text-[40px] lg:text-[40px]"
                         >
                             Partnership Model &amp; Results
                         </h2>
@@ -617,8 +607,7 @@ const MyRent = () => {
                                 <div key={index} className="relative px-3 lg:px-10">
                                     <div className="min-h-[104px]">
                                         <h3
-                                            className="text-[42px] sm:text-[48px] lg:text-[54px] font-normal leading-[0.95] text-[#49E000]"
-                                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                                            className="text-client-stat text-[#49E000] sm:text-[48px] lg:text-[54px]"
                                         >
                                             {item.value}
                                         </h3>
@@ -643,8 +632,7 @@ const MyRent = () => {
                 <div className="mx-auto container-xl">
                     <div className="flex flex-col items-center justify-center px-2 sm:px-4 py-4 sm:py-8 text-center">
                         <h2
-                            className=" text-[26px] sm:text-[32px] md:text-[36px] lg:text-[40px] font-normal leading-[1.15] tracking-[-0.02em] text-[#555555]"
-                            style={{ fontFamily: "Georgia, Times New Roman, serif" }}
+                            className="text-client-title text-[#555555] sm:text-[32px] md:text-[36px] lg:text-[40px]"
                         >
                             Marketing Excellence That Works On Your Terms
                         </h2>

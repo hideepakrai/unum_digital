@@ -69,6 +69,7 @@ const BrandPartnerSec = () => {
       image: "/assets/Image/Rectangle 1832.png",
       gridCols: "md:col-span-2",
       link: "/who-we-create-for/local-boutique-brands",
+      isInactive: true,
     },
     {
       id: 9,
@@ -85,6 +86,7 @@ const BrandPartnerSec = () => {
       image: "/assets/Image/Frame.png",
       gridCols: "md:col-span-1",
       link: "/who-we-create-for/tourism-travel",
+      isInactive: true,
     },
     {
       id: 11,
@@ -93,6 +95,7 @@ const BrandPartnerSec = () => {
       image: "/assets/Image/Rectangle 1827.png",
       gridCols: "md:col-span-1",
       link: "/who-we-create-for/education-e-learning",
+      isInactive: true,
     },
     {
       id: 12,
@@ -109,6 +112,7 @@ const BrandPartnerSec = () => {
       image: "/assets/Image/tis-img.png",
       gridCols: "md:col-span-1",
       link: "/who-we-create-for/tis-group-rebranding",
+      isInactive: true,
     },
     {
       id: 14,
@@ -122,7 +126,7 @@ const BrandPartnerSec = () => {
 
   return (
     <section id="our-work" className="bg-[#101a21] px-4 py-12 md:px-8 md:py-28 lg:px-10">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-8xl">
         <div className="mb-12 text-center md:mb-16 max-w-2xl mx-auto">
           <h2 className="text-[28px] font-semibold tracking-[-0.03em] text-white md:text-[40px] md:pt-4">
             Some of the stories that we <br className="hidden md:block" /> had privilege to co-create!
@@ -134,35 +138,61 @@ const BrandPartnerSec = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-x-5 gap-y-8 md:grid-cols-4 md:gap-x-5 md:gap-y-10">
-          {partners.map((partner) => (
-            <Link
-              href={partner.link}
-              key={partner.id}
-              className={`group flex flex-col ${partner.gridCols}`}
-            >
-              <div className="mb-3 overflow-hidden rounded-[18px] bg-white/5">
-                <div className="h-[220px] w-full sm:h-[260px] md:h-[228px] lg:h-[238px]">
-                  <img
-                    src={partner.image}
-                    alt={partner.title}
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
+          {partners.map((partner) => {
+            const content = (
+              <>
+                <div className="mb-3 overflow-hidden rounded-[18px] bg-white/5">
+                  <div className="h-[220px] w-full sm:h-[260px] md:h-[228px] lg:h-[238px]">
+                    <img
+                      src={partner.image}
+                      alt={partner.title}
+                      className={`h-full w-full object-cover transition-transform duration-500 ${
+                        partner.isInactive ? "" : "group-hover:scale-[1.03]"
+                      }`}
+                    />
+                  </div>
                 </div>
-              </div>
 
-              <div className="px-[2px]">
-                <h3 className="text-[18px] font-semibold leading-[1.25] text-white transition-colors duration-300 group-hover:text-[#dfe7ee] md:text-[17px] lg:text-[18px]">
-                  {partner.title}
-                </h3>
-                <p className="mt-1 text-[11px] italic leading-[1.5] text-white/75 md:text-[11px]">
-                  {partner.category}
-                </p>
-              </div>
-            </Link>
-          ))}
+                <div className="px-[2px]">
+                  <h3
+                    className={`text-[18px] font-semibold leading-[1.25] text-white transition-colors duration-300 ${
+                      partner.isInactive ? "" : "group-hover:text-[#dfe7ee]"
+                    } md:text-[17px] lg:text-[18px]`}
+                  >
+                    {partner.title}
+                  </h3>
+                  <p className="mt-1 text-[11px] italic leading-[1.5] text-white/75 md:text-[11px]">
+                    {partner.category}
+                  </p>
+                </div>
+              </>
+            );
+
+            if (partner.isInactive) {
+              return (
+                <div
+                  key={partner.id}
+                  className={`flex flex-col ${partner.gridCols}`}
+                >
+                  {content}
+                </div>
+              );
+            }
+
+            return (
+              <Link
+                href={partner.link}
+                key={partner.id}
+                className={`group flex flex-col ${partner.gridCols}`}
+              >
+                {content}
+              </Link>
+            );
+          })}
         </div>
       </div>
     </section>
+
   );
 };
 
