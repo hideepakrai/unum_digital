@@ -15,9 +15,6 @@ const Header = () => {
     setMounted(true);
   }, []);
 
-  if (pathname?.startsWith("/admin")) {
-    return null;
-  }
 
   const navItems = [
     { name: "Our Services", href: "/#our-services" },
