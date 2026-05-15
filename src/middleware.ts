@@ -3,7 +3,6 @@ import { NextRequest, NextResponse } from "next/server";
 const IGNORED_PATHS = [
   "/api",
   "/_next",
-  "/admin",
   "/favicon.ico",
   "/assets",
   "/static",
@@ -60,8 +59,7 @@ export const config = {
      * - _next/static (static files)
      * - _next/image (image optimization files)
      * - favicon.ico (favicon file)
-     * - admin (admin routes)
      */
-    "/((?!api|_next/static|_next/image|favicon.ico|admin).*)",
+    "/((?!api|_next/static|_next/image|favicon.ico).*)",
   ],
 };

@@ -6,9 +6,6 @@ import { usePathname } from "next/navigation";
 const Footer: React.FC = () => {
   const pathname = usePathname();
 
-  if (pathname?.startsWith("/admin")) {
-    return null;
-  }
 
   return (
     <footer className="w-full border-t border-transparent bg-[#161e23]">

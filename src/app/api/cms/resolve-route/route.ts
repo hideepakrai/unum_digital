@@ -6,7 +6,7 @@ export async function GET(req: NextRequest) {
   const url = new URL(req.url);
   const path = url.searchParams.get("path");
 
-  if (!path || path.startsWith("/api") || path.startsWith("/_next") || path.startsWith("/admin")) {
+  if (!path || path.startsWith("/api") || path.startsWith("/_next")) {
     return NextResponse.json({ type: "none" });
   }
 
