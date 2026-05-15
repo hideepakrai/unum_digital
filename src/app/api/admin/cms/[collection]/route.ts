@@ -6,7 +6,6 @@ import {
   CMS_READ_ROLES,
   CMS_WRITE_ROLES,
   isCmsCollection,
-  
   normalizeCmsDocumentInput,
   normalizeCmsKey,
   normalizeCmsSlug,
